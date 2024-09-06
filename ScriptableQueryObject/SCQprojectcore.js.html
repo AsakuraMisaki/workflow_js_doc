@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>SCQprojectcore.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ScriptableQueryObject.Alerter.html">Alerter</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#changeSize">changeSize</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#hide">hide</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setAlertColor">setAlertColor</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setSafeColor">setSafeColor</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setup">setup</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#show">show</a></li></ul></li><li><a href="ScriptableQueryObject.Battler.html">Battler</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Battler.html#param">param</a></li><li data-type='method'><a href="ScriptableQueryObject.Battler.html#trait">trait</a></li></ul></li><li><a href="ScriptableQueryObject.Server.html">Server</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Server.html#close">close</a></li><li data-type='method'><a href="ScriptableQueryObject.Server.html#get">get</a></li><li data-type='method'><a href="ScriptableQueryObject.Server.html#spread">spread</a></li></ul></li><li><a href="ScriptableQueryObject.Skill.html">Skill</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Skill.html#_updateColliderFilterGroup">_updateColliderFilterGroup</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#action">action</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#addSkill2scene">addSkill2scene</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#bangTerrain">bangTerrain</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#cd">cd</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#collider">collider</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#damage">damage</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#destroy">destroy</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#force">force</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#front">front</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#fsm">fsm</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#getTargets">getTargets</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#pos">pos</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#shake">shake</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#speed">speed</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#sprite">sprite</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#sync">sync</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#tween">tween</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#useskill">useskill</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#velocity">velocity</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#._createSkillOjbectMap">_createSkillOjbectMap</a></li></ul></li><li><a href="ScriptableQueryObject.State.html">State</a></li><li><a href="ScriptableQueryObject.ai_support.html">ai_support</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.ai_support.html#aiAlert">aiAlert</a></li><li data-type='method'><a href="ScriptableQueryObject.ai_support.html#alertCheck">alertCheck</a></li></ul></li><li><a href="ScriptableQueryObject.arpg.html">arpg</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.arpg.html#_weightRule">_weightRule</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#addPIXIfilter">addPIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#addState">addState</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#angle2Radian">angle2Radian</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#clearFreezes">clearFreezes</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#collide">collide</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#dir">dir</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#dir2Radian">dir2Radian</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#freeze">freeze</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#prefabGroup">prefabGroup</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#prefabGroupsCount">prefabGroupsCount</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#preparePIXIfilter">preparePIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#radian2">radian2</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#radian2dir">radian2dir</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#removePIXIfilter">removePIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#removeState">removeState</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#unfreeze">unfreeze</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#weight">weight</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#weightRule">weightRule</a></li></ul></li><li><a href="ScriptableQueryObject.autoPrefab.html">autoPrefab</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#_createPrefab">_createPrefab</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#_createPrefabByBattler">_createPrefabByBattler</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#add2Map">add2Map</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#createPrefab">createPrefab</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#mapObjectPos">mapObjectPos</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#touch2Map">touch2Map</a></li></ul></li><li><a href="ScriptableQueryObject.bone.html">bone</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.bone.html#_boneAniPr">_boneAniPr</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#_bonebase">_bonebase</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#addEl">addEl</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#autoAni">autoAni</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneAniPr">boneAniPr</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneDir">boneDir</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneInit">boneInit</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneMirror">boneMirror</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#commonBoneInit">commonBoneInit</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#posedb">posedb</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#setEl">setEl</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#updateBone">updateBone</a></li></ul></li><li><a href="ScriptableQueryObject.contexter.html">contexter</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.contexter.html#_eon">_eon</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#_execMeetConditions">_execMeetConditions</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#build">build</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#clearCache">clearCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#connect">connect</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#copyCacheA2B">copyCacheA2B</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#createServer">createServer</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#disconnect">disconnect</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eoff">eoff</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eon">eon</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eval">eval</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#export">export</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#fetch">fetch</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#fn">fn</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#gc">gc</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#getCache">getCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#getServer">getServer</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#hook">hook</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#hookoff">hookoff</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#import">import</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#json">json</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#linearValue">linearValue</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#log">log</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#map">map</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#pause">pause</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#prefn">prefn</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#prop">prop</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#random">random</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#resetQuery">resetQuery</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#setCache">setCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#sharelite">sharelite</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#value">value</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#warmArg">warmArg</a></li></ul></li><li><a href="ScriptableQueryObject.inputmap.html">inputmap</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#_input2motion">_input2motion</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#clampInputDir">clampInputDir</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#getInputDir">getInputDir</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#input2motion">input2motion</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#moveinputing">moveinputing</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#updateInputMotions">updateInputMotions</a></li></ul></li><li><a href="ScriptableQueryObject.mzarpg.html">mzarpg</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#_loot">_loot</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#battleCollider">battleCollider</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#canUseSkill">canUseSkill</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#collect">collect</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#comboAdvance">comboAdvance</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#distance">distance</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#free">free</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#getMoveRadWithAdvancedMode">getMoveRadWithAdvancedMode</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#getPose">getPose</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#handled41">handled41</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#hphidden">hphidden</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#lockFPS">lockFPS</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#loot">loot</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#lootStart">lootStart</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#matter">matter</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#move">move</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#pose">pose</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#removeBody">removeBody</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#saveElCount">saveElCount</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#useItem">useItem</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#useSkill">useSkill</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#windowmes">windowmes</a></li></ul></li><li><a href="ScriptableQueryObject.petSystem.html">petSystem</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#getPets">getPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#initPets">initPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#killPets">killPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#loadPets">loadPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#lowerVarCustomPrefix">lowerVarCustomPrefix</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#pet2">pet2</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#petKillSelf">petKillSelf</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#recPet">recPet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#savePets">savePets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#ui_ablePet">ui_ablePet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#ui_disablePet">ui_disablePet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#updatehoverShowPetDebug">updatehoverShowPetDebug</a></li></ul></li></ul><h3>Namespaces</h3><ul><li><a href="ScriptableQueryObject.html">ScriptableQueryObject</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">SCQprojectcore.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/*:
+@target 
+@plugindesc 松散类预制体工作流及Utils拓展
+@author 
+
+* @param targetLine
+* @text 目标间连线
+* @default true
+* @type boolean
+
+* @param targetInfo
+* @text 悬停信息显示
+* @default true
+* @type boolean
+*/
+
+(function (global, factory) {
+    if (!global) return;
+    let common = (typeof exports === 'object' &amp;&amp; typeof module !== 'undefined'); // CommonJS
+    common ? factory(exports) : factory(global.SCQprojectcore = {}); //Universal
+})(window || global || self || globalThis, function (exports) {
+
+    const PARAMS = PluginManager.parameters('SCQprojectcore');
+    const debug_tlink = (PARAMS['targetLine'] == 'true');
+    const debug_tinfo = (PARAMS['targetInfo'] == 'true');
+
+    // 当前项目专用
+    // 全局方法
+    const S = ScriptableQueryObject;
+    const Battler = S.Battler,
+        Skill = S.Skill,
+        State = S.State,
+        mixer = S.mixer,
+        EV = S.EV;
+        
+    petSystem.running = new Map();
+    /**
+     * 宠物拓展
+     * @memberof ScriptableQueryObject
+     * @class
+     */
+    function petSystem(){ };
+    /**
+     * 初始化宠物列表，这将使当前序列(如玩家序列)可以侦听各类相关事件如从UI中确认召唤等
+     * @returns {Map} 宠物列表
+     */
+    petSystem.prototype.initPets = async function(){
+        let loaded = await this.loadPets();
+        petSystem.running.set(this._battler, loaded);
+    }
+    /**
+     * 保存宠物列表&lt;strong>为文本&lt;/strong>
+     * @param {Map} pets 宠物列表，如为空将自动获取
+     * @returns {string} 保存后文本
+     */
+    petSystem.prototype.savePets = async function(pets){
+        let a = this._battler;
+        pets = pets || petSystem.running.get(a);
+        if(!pets) return;
+        let array = Array.from(pets);
+        StorageManager.saveObject('pets', array);
+        alert('宠物存档成功');
+    }
+    // 240813 数据保存问题
+    // 1. 抓取宠物会直接异步保存【宠物数据】到磁盘
+    // 2. 不论任何情况，打开游戏的界面为主界面，不允许在任意地图进行保存或读档
+    /**
+     * 加载宠物列表
+     * @param {string} pets='' 待序列化文本
+     * @returns {Map} 宠物列表
+     */
+    petSystem.prototype.loadPets = async function(){
+        let a = this._battler;
+        let exists = StorageManager.exists('pets');
+        if(!exists) return new Map();
+        const pets = await StorageManager.loadObject('pets');
+        if(!pets) return new Map();
+        let loaded = new Map();
+        pets.forEach((data)=>{
+            let ene = data[1];
+            let id = data[0];
+            let newBattler = new Game_Enemy(ene._enemyId, 0, 0);
+            newBattler.resetPetObject(ene);
+            loaded.set(id, newBattler);
+        })
+        petSystem.running.set(a, loaded);
+        UIEV.emit('petload', loaded);
+        return loaded;
+    }
+    Game_Battler.prototype.resetPetObject = function(b){
+        let actor = this._actorId;
+        let id = actor ? this._actorId : this._enemyId;
+        Object.assign(this, b);
+        delete this.__gcing;
+        delete this.petready;
+        delete this._prefabId;
+        delete this._queryId;
+        actor ?  this._actorId = id : this._enemyId = id;
+    }
+    /**
+     * 获取宠物列表 
+     * @returns {Map} 宠物列表
+     */
+    petSystem.prototype.getPets = function(){
+        return petSystem.running.get(this._battler) || new Map();
+    }
+    /**
+     * 杀死宠物，如果存在宠物的逻辑序列，该序列将立刻被销毁
+     * @param {...Game_Battler} ...kills 需要销毁的宠物
+     */
+    petSystem.prototype.killPets = function(...kills){
+        let pets = this.getPets(this._battler);
+        if(!pets) return;
+        kills.forEach((b)=>{
+            if(!b.petInfo) return;
+            if(!pets.has(b.petInfo.time)) return;
+            pets.delete(b.petInfo.time);
+            let q = S.getQuery(b);
+            q ? q.gc() : null;
+        })
+    }
+    /**
+     * 移除宠物 
+     * @example #petKillSelf ^$gamePlayer
+     * @param {Game_Character} target 宠物拥有者如玩家
+     */
+    petSystem.prototype.petKillSelf = function(target){
+        let pets = petSystem.running.get(target.gameObject || target);
+        if(!pets) return;
+        if(!this._battler.petInfo) return;
+        UIEV.emit('petkill', this._battler.petInfo.time, this._battler, pets); //UI-宠物移除
+        pets.delete(this._battler.petInfo.time);
+    }
+    petSystem.prototype.combinePets = function(b, b1, random=1, cb){
+        let pets = this.getPets(this._battler);
+        if(!pets) return;
+        if(typeof(random) == 'function' &amp;&amp; !random()) return;
+        if(typeof(random) == 'number' &amp;&amp; Math.random() > random) return;
+        this.killPets(b);
+        cb ? cb() : null;
+    }
+    /**
+     * 成为某个角色如玩家的宠物
+     * @param {ame_Battler|Game_Character} a 角色
+     * @param {number} coverId 覆盖id &lt;strong>通常来说，未捕捉和宠物有明确的逻辑差别(逻辑序列应该不同)，务必理解这个参数&lt;/strong>
+     * @param {string} autoq='destroy' 成功后开启序列
+     * @returns {boolean}
+     */
+    petSystem.prototype.pet2 = function(a, coverId, autoq='destroy'){
+        if(this._battler.petready) return;
+        let pets = a.getPets();
+        if(!pets) return;
+        let time = Date.now();
+        if(time == __now){ //Date误差问题
+            time++;
+        }
+        __now = time;
+        this._battler.petInfo = {
+            time,
+            mapId: $gameMap._mapId,
+        }
+        let newBattler = this._battler.clone(coverId);
+        this._battler.petready = true;
+        this._gccb(this._battler, this._finallyPet2.bind(this, newBattler, this._battler, pets, 'add'));
+        if(autoq){
+            this.hook(autoq, true, true);
+        }
+        return true;
+    }
+    let __now = Date.now();
+    petSystem.prototype._finallyPet2 = function(newBattler, b, pets, type='add'){
+        if(!newBattler) return;
+        newBattler.resetPetObject(b);
+        if(pets){
+            pets.set(newBattler.petInfo.time, newBattler);
+        }
+        if(type == 'add'){
+            UIEV.emit('petadd', newBattler.petInfo.time, newBattler, pets); //UI-宠物添加
+        }
+        else if(type == 'rec'){
+            UIEV.emit('petrec', newBattler.petInfo.time, newBattler, pets); //UI-宠物回收
+        }
+    }
+    /**
+     * 回收宠物
+     * @example recPet ^$gamePlayer 
+     * @param {Game_Battler|Game_Character} a 回收者，如玩家
+     * @param {string} autoq='destroy' 如成功，自动执行序列
+     * @returns {boolean}
+     */
+    petSystem.prototype.recPet = function(a, autoq='destroy'){
+        if(this._battler.petready) return;
+        let pets = a.getPets();
+        if(!pets) return;
+        this._battler.petready = true;
+        let newBattler = this._battler.clone();
+        this._gccb(this._battler, this._finallyPet2.bind(this, newBattler, this._battler, pets, 'rec'));
+        if(autoq){
+            this.hook(autoq, true, true);
+        }
+        return true;
+    }
+    Game_Battler.prototype.clone = function(id){
+        let newBattler = new this.constructor(id || this._actorId || this._enemyId, 0,0);
+        newBattler.resetPetObject(this);
+        return newBattler;
+    }
+    petSystem.prototype.makeSavePets = function(pets){
+        return pets; //不做处理 superjson
+    }
+    /**
+     * 自定义底层预制变量前缀
+     * @param {string} prefix='low_' 前缀
+     */
+    petSystem.prototype.lowerVarCustomPrefix = function(prefix='low_'){
+        this._battler.lowerVarCustomPrefix = prefix;
+    }
+
+
+    // 宠物作为无视地图的随从的逻辑实现
+    // 不随地图回收
+    let gc = function(gameObject){
+        if(!gameObject) return;
+        if(!gameObject.petInfo) return;
+        let pets = $gamePlayer.getPets();
+        let has = pets.has(gameObject.petInfo.time);
+        if(has){
+            return true;
+        }
+    }
+    ScriptableQueryObject.gcInValids.add(gc);
+
+    // 获取已召唤宠物的预制体
+    let filerPetPrefabs = function(){
+        let pets = $gamePlayer.getPets();
+        if(!pets) return;
+        let prefabs = new Set();
+        pets.forEach((pet)=>{
+            let prefab = pet.prefab;
+            if(!prefab) return;
+            prefabs.add(pet.prefab);
+        })
+        return prefabs;
+    }
+
+    // 修正宠物位置
+    let correctPetPosition = function(){
+        let prefabs = filerPetPrefabs();
+        if(!prefabs) return;
+        prefabs.forEach((p)=>{
+            let matter = p.cache.get('matter');
+            matter.initPos($gamePlayer._newX, $gamePlayer._newY);
+        }) 
+    }
+    ScriptableQueryObject.EV.on('beforemaploaded', correctPetPosition, 9);
+
+    // 添加宠物精灵
+    let Spriteset_Map_createCharacters = function(characterSprites){
+        let prefabs = filerPetPrefabs();
+        if(!prefabs) return;
+        prefabs.forEach((p)=>{
+            let mapObject = p.mapObject;
+            characterSprites.push(new Sprite_Character(mapObject));
+        }) 
+    }
+    ScriptableQueryObject.EV.on('Spriteset_Map-createCharacters', Spriteset_Map_createCharacters);
+
+    // let Game_Player_reserveTransfer = Game_Player.prototype.reserveTransfer;
+    // Game_Player.prototype.reserveTransfer = function(){
+
+    // }
+
+    // 召唤
+    let petSpawn = function(prefabs){
+        let args = new Set();
+        prefabs.forEach((p)=>{
+            let pet = p.gameObject;
+            if(!pet.petInfo) return;
+            args.add(pet.petInfo.time);
+            UIEV.emit('petspawn', pet.petInfo.time); //240819 后续考虑性能问题
+        })
+        // let args1 = Array.from(args);
+    }
+    ScriptableQueryObject.EV.on('_createPrefabByBattler', petSpawn);
+
+    let quick = function(...methods){
+        methods.forEach((m)=>{
+            if(!petSystem.prototype[m]) return;
+            Game_Battler.prototype[m] = Game_Character.prototype[m] = function(...args){
+                let q = this.query();
+                if(!q) return;
+                return q[m](...args);
+            }
+        })
+    }
+    quick('savePets', 'loadPets', 'getPets', 'killPets', 'combinePets', 'makeSavePets');
+
+    
+
+
+    let __uiInit = false;
+    // UI相关
+    const initUIManager = function initUIManager(m){
+        if(__uiInit) return;
+        __uiInit = true;
+        let e = m.eventSystem;
+        window.UIEV = e;
+        e.on('petadd', (...args)=>{
+            console.log('添加宠物', args);
+        }) //添加
+        e.on('petkill', (...args)=>{
+            console.log('移除宠物', args);
+        }) //移除
+        e.on('petspawn', (...args)=>{
+            console.log('召唤宠物', args);
+        }) //召唤
+        e.on('petrec', (...args)=>{
+            console.log('收回宠物', args);
+        }) //收回
+        e.on('petload', (...args)=>{
+            console.log('加载宠物', args);
+        })
+
+    }
+    
+    
+    function filter(enhanced = `vec4(.7, .7, .7, sample.a)`){
+        let result = new PIXI.Filter(undefined, `
+          varying vec2 vTextureCoord;
+          varying vec2 vFilterCoord;
+          uniform sampler2D uSampler;
+          void main(void){
+            vec4 sample = texture2D(uSampler, vTextureCoord);
+            gl_FragColor = sample - ${enhanced} * sample.a;
+          }
+        `, {});
+        return result;
+    }
+    const ablePet = function(obj){
+        if(obj instanceof PIXI.Container){
+            _ablePet(obj);
+            return;
+        }
+        if(!SceneManager._scene._uiManager.uiElements._troopSelectionPanel) return;
+        let children = SceneManager._scene._uiManager.uiElements._troopSelectionPanel.children;
+        let done = false;
+        children.forEach((u)=>{
+            if(done) return;
+            if(u.mappingId == obj.petInfo.time){
+                _ablePet(u);
+                done = true;
+            }
+        })
+    }
+    const _ablePet = function(ui){
+        ui.filters = ui.filters || [];
+        ui._disable = false;
+        let i = ui.filters.indexOf(ui.disablePetFilter);
+        if(i &lt; 0) return;
+        ui.filters.splice(i, 1);
+    }
+    const disablePet = function(ui){
+        ui.filters = ui.filters || [];
+        ui._disable = true;
+        let i = ui.filters.indexOf(ui.disablePetFilter);
+        if(i >= 0) return;
+        ui.filters.push(ui.disablePetFilter || (ui.disablePetFilter = filter(`vec4(.25, .25, .25, sample.a)`)));
+    }
+    
+    //宠物信息debug
+    let _updatehoverShowPetDebug = new Map(); 
+    /**
+     * 显示宠物信息，通常为调试用
+     * @param {number} delay=0 延迟，无效果
+     */
+    petSystem.prototype.updatehoverShowPetDebug = function(){
+        if(!tryDebug) return;
+        if(_updatehoverShowPetDebug.has(this)) return;
+        let hoverShowPetDebug = new PIXI.Text();
+        hoverShowPetDebug.style.stroke = 'white';
+        hoverShowPetDebug.style.strokeThickness = 3;
+        hoverShowPetDebug.style.fontSize = 15;
+        hoverShowPetDebug.destroy = function(){};
+        _updatehoverShowPetDebug.set(this, hoverShowPetDebug);
+        this._gccb(hoverShowPetDebug, ()=>{
+            _updatehoverShowPetDebug.delete(this);
+            hoverShowPetDebug.remove();
+        })
+    }
+
+    let tryDebug = true;
+    //宠物信息debug
+    let tempTargetLink = new PIXI.Graphics();
+    tempTargetLink.beginFill(0x00ffbb, 0.5);
+    tempTargetLink.destroy = function(){ };
+    let targetLink = ()=>{
+        let prefabs = filerPetPrefabs();
+        if(!prefabs) return;
+        tempTargetLink.clear();
+        SceneManager._scene.addChild(tempTargetLink);
+        tempTargetLink.lineStyle(3, 0x00ffbb, 1);
+        prefabs.forEach((p)=>{
+            let q = ScriptableQueryObject.getQuery(p.gameObject);
+            if(!q) return;
+            let mapObject = p.mapObject;
+            let x = mapObject.screenX();
+            let y = mapObject.screenY();
+            let target = q.cache.get('target2');
+            if(!target) return;
+            target = target.c || target;
+            let m2 = target.mapObject;
+            if(!m2) return;
+            let x1 = m2.screenX();
+            let y1 = m2.screenY();
+            tempTargetLink.moveTo(x, y);
+            tempTargetLink.lineTo(x1, y1);
+        })
+    }
+    
+    let processUpdatehoverShowPetDebug = ()=>{
+        let Input = ScriptableInput._Input;
+        _updatehoverShowPetDebug.forEach((hoverShowPetDebug, q)=>{
+            let bonebase = q.bonebase;
+            if(!bonebase || !bonebase.transform) return;
+            const { x, y, width, height } = bonebase.getBounds();
+            let inside = Input.pointerInside(x, y, width, height);
+            if(inside){
+                let value1 = `name: ${q.source.name} \n id: ${q.source.id} \n pose:${q._battler._pose} \n hp:${q._battler.hp} \n mp:${q._battler.mp} \n`;
+                if(q._battler.petInfo){
+                    value1 += `petid: ${q._battler.petInfo.time} \n from:${$dataMapInfos[q._battler.petInfo.mapId].name} \n`
+                }
+                //暂时消除显示位置坐标信息
+                if(q._battler.mapObject){
+                    value1 += `x: ${q._battler.mapObject._realX} \n y: ${q._battler.mapObject._realY} \n`;
+                }
+                q.flags.forEach((bbj, name)=>{
+                    value1 += name + ': ' + (q._battler[name]) + '\n';
+                })
+                hoverShowPetDebug.text = value1;
+                hoverShowPetDebug.x = bonebase._boundsRect.x + bonebase._boundsRect.width;
+                hoverShowPetDebug.y = bonebase._boundsRect.y;
+                SceneManager._scene.addChild(hoverShowPetDebug);
+            }
+            else{
+                hoverShowPetDebug.remove();
+            }
+        })
+    }
+    if(debug_tlink){
+        EV.on('gamemapupdate', targetLink);
+    }
+    if(debug_tinfo){
+        EV.on('gamemapupdate', processUpdatehoverShowPetDebug);
+    }
+   
+    /**
+     * 启用宠物对应的出站UI，通常不需要手动调用
+     * @param {any} ...args 会重载到其他函数，第一个参数为ui即可
+     */
+    petSystem.prototype.ui_disablePet = function(...args){
+        disablePet(...args);
+    }
+    /**
+     * 启用宠物对应的出站UI
+     * @param {any} ...args 会重载到其他函数，第一个参数为宠物实体(Game_Battler)即可
+     */
+    petSystem.prototype.ui_ablePet = function(...args){
+        ablePet(...args);
+    }
+    
+    exports.initUIManager = initUIManager;
+
+    // 240810 界面跳转点击
+
+    let pointerTrigger = function(i){
+        if(!i._eventId) return;
+        if(Input.isTriggered('m0')){
+            const sprites = SceneManager._scene._spriteset._characterSprites;
+            let target = sprites.find((sp)=>{
+                return sp._character &amp;&amp; (sp._character._eventId == i._eventId);
+            })
+            let bound = target._frame;
+            const {width, height} = bound;
+            let pos = target.getGlobalPosition();
+            let inside = Input.pointerInside(pos.x-(width * target.anchor.x) , pos.y-(height * target.anchor.y), width, height);
+            console.log(inside, i._eventId);
+            return inside;
+        }   
+    }
+
+
+    // 某些兼容或优化
+    Spriteset_Map.prototype.createCharacters = function() {
+        this._characterSprites = [];
+        for (const event of $gameMap.events()) {
+            this._characterSprites.push(new Sprite_Character(event));
+        }
+        // 精简
+        // for (const vehicle of $gameMap.vehicles()) {
+        //     this._characterSprites.push(new Sprite_Character(vehicle));
+        // }
+        // for (const follower of $gamePlayer.followers().reverseData()) {
+        //     this._characterSprites.push(new Sprite_Character(follower));
+        // }
+        this._characterSprites.push(new Sprite_Character($gamePlayer));
+        ScriptableQueryObject.EV.emit('Spriteset_Map-createCharacters', this._characterSprites, this, this._tilemap);
+        for (const sprite of this._characterSprites) {
+            this._tilemap.addChild(sprite);
+        }
+    };
+
+    window.mmta = function(name){
+        if(!$dataMap) return "";
+        let meta = $dataMap.meta[name];
+        if(/^n_/i.test(name)){
+            return Number(meta);
+        }
+        return meta;
+    }
+
+    Scene_Boot.prototype.startNormalGame = function() {
+        EV.emit('start-normal-game');
+        this.checkPlayerLocation();
+        DataManager.setupNewGame();
+        Window_TitleCommand.initCommandPosition();
+        // 240618 直接进入地图
+        SceneManager.goto(Scene_Title);
+    };
+
+    let Scene_Title_start = Scene_Title.prototype.start;
+    Scene_Title.prototype.start = function() {
+        Scene_Title_start.call(this, ...arguments);
+        EV.emit('back-title');
+    };
+
+    // Scene_Gameover.prototype.start = function(){
+    //     EV.emit('game-over');
+    // }
+
+    EV.on('back-title', ()=>{
+        ScriptableQueryObject.contexter.running.forEach((contxt)=>{
+            contxt.gc();
+        })
+    })
+    
+
+    const targets = function(){
+        const bosses = Prefab.runningGroup.boss;
+        if(!bosses) return;
+        let array = Array.from(bosses.values());
+        const {x, y} = $gameTemp._newMap;
+        array = array.sort((a, b)=>{
+            let ma = a.mapObject;
+            let mb = b.mapObject;
+            if(!ma || !mb) return Infinity;
+            let da = Math.abs(ma._realX - x) + Math.abs(ma._realY - y);
+            let db = Math.abs(mb._realX - x) + Math.abs(mb._realY - y);
+            return (da - db)
+        })
+        return array;
+    }
+    
+    EV.on('gamemapfupdate', ()=>{
+        $gameTemp._newMap = { x:$gamePlayer._realX, y:$gamePlayer._realY }
+        window.tar = null;
+    })
+
+    EV.on('gamemapupdate', ()=>{
+        let ts = targets();
+        if(ts &amp;&amp; ts[0]){
+            window.tar = ts[0].mapObject;
+        }
+        else{
+            window.tar = null;
+            EV.emit('map-targets-clear')
+        }
+    })
+
+    /**
+     * AI辅助类
+     * @memberof ScriptableQueryObject
+     * @class
+     */
+    function ai_support(){ };
+    /**
+     * 设置一个警示器, &lt;a href="ScriptableQueryObject.Alerter.html#setup">具体实现&lt;/a>
+     * @param {any} ...args
+     * @returns {Alerter} 警示器
+     */
+    ai_support.prototype.aiAlert = function(...args){
+        let alert = new Alerter()
+        alert.setup(...args)
+        return alert
+    }
+    /**
+     * 判定警示器是否碰撞到某个目标
+     * @param {Alerter} alert 警示器
+     * @param {Game_Character|Prefab} poser 目标
+     * @param {boolean} autoCheckFix=true 自动检查
+     * @param {boolean} alwaysAlert=true 持续检查
+     * @returns {boolean} 碰撞结果
+     */
+    ai_support.prototype.alertCheck = function(alert, poser, autoCheckFix=true, alwaysAlert=true){
+        let bound = alert.getBounds();
+        let result = alert.checkMapCollide(poser, bound);
+        if(autoCheckFix){
+            alert.autoCheckFix.set({alwaysAlert}, poser);
+        }
+        return result;
+    }
+
+    /**
+     * 警示器
+     * @memberof ScriptableQueryObject
+     * @class
+     */
+    function Alerter() {
+        this.initialize(...arguments);
+    }
+    
+    Alerter.prototype = Object.create(PIXI.Sprite.prototype);
+    Alerter.prototype.constructor = Alerter;
+    
+    Alerter.prototype.initialize = function() {
+        PIXI.Sprite.call(this, ...arguments);
+        this.autoCheckFix = new Map();
+        this.colorliteFilter = SCQ_customFilters.maps.get("gl_colorlite");
+        this.colorliteFilter.add2(this);
+        this.setSafeColor();
+        this.setAlertColor();
+        this.changeColor(this._safeColor);
+    };
+
+    /**
+     * 设置一个警示器
+     * @param {number} size=600 大小/直径
+     * @param {number} sy=0.5 垂直缩放
+     * @param {number} lineWidth=5 线宽
+     * @param {number} lineDash=8 虚线间隔
+     * @param {boolean} fill=false 填充而非边缘
+     * @param {number} alpha=1 透明度
+     */
+    Alerter.prototype.setup = function(size=600, sy=0.5, lineWidth=5, lineDash=8, fill=false, alpha=1){
+        const canvas = document.createElement("canvas");
+        canvas.width = canvas.height = size;
+        const ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#ffffff";
+        ctx.strokeStyle = "#ffffff";
+        ctx.lineWidth = lineWidth;
+        ctx.setLineDash([lineDash]);
+        ctx.beginPath();
+        ctx.arc(size/2, size/2, size/2, 0, 2 * Math.PI);
+        if(fill){
+            ctx.fill();
+        }
+        else{
+            ctx.stroke();
+        }
+        this.alpha = alpha;
+       
+        this.texture = PIXI.Texture.from(canvas);
+        this.scale.y = sy;
+        this.anchor.x = this.anchor.y = 0.5;
+    }
+
+    Alerter.prototype.update = function(){
+        this.emit("update");
+        if(this.autoCheckFix.size){
+            let bound = this.getBounds();
+            let check = false;
+            this.autoCheckFix.forEach((poser, key, map)=>{
+                let co = this.checkMapCollide(poser, bound)
+                if(poser._prefabId &amp;&amp; !poser.prefab){
+                    map.delete(key);
+                    return;
+                }
+                else if(poser instanceof Game_Event &amp;&amp; poser._earsed){
+                    map.delete(key);
+                    return;
+                }
+                else if(poser.velocity &amp;&amp; poser.__destroy){
+                    map.delete(key);
+                    return;
+                }
+                if(this._currentColor == this._alertColor &amp;&amp; co){
+                    check = true;
+                    return;
+                }
+                else if(co &amp;&amp; this._currentColor != this._alertColor){
+                    this.changeColor(this._alertColor);
+                    check = true;
+                    return;
+                }   
+                else if(!co &amp;&amp; !key.alwaysAlert){
+                    map.delete(key);
+                }
+            })
+            if(!check &amp;&amp; this._currentColor != this._safeColor){
+                this.changeColor(this._safeColor);
+            }
+        }
+    }
+
+    /**
+     * 设置安全色
+     * @param {number} color=0x00ff00
+     * @returns {any}
+     */
+    Alerter.prototype.setSafeColor = function(color=0x00ff00){
+        this._safeColor = color;
+    }
+
+    /**
+     * 设置检查色
+     * @param {number} color=0xff0000
+     * @returns {any}
+     */
+    Alerter.prototype.setAlertColor = function(color=0xff0000){
+        this._alertColor = color;
+    }
+
+    Alerter.prototype.changeColor = function(color){
+        // this.
+        let uniforms = this.colorliteFilter.uniforms;
+        uniforms.u_color = PIXI.utils.hex2rgb(color)
+        this._currentColor = color;
+    }
+
+    Alerter.prototype.checkMapCollide = function(poser, bound){
+        if(poser.screenX){
+            poser = { x:poser.screenX(), y:poser.screenY() }
+        }
+        let result = bound.contains(poser.x, poser.y);
+        return result;
+    }
+
+    /**
+     * 设置大小
+     * @param {number} size
+     */
+    Alerter.prototype.changeSize = function(size){
+        this.width = this.height = size;
+    }
+
+    /**
+     * 隐藏
+     */
+    Alerter.prototype.hide = function(){
+        this.renderable = false;
+    }
+
+    /**
+     * 显示
+     */
+    Alerter.prototype.show = function(){
+        this.renderable = true;
+    }
+
+
+
+    
+    // 1. UI:宠物点击->点击数据->[代码].生成宠物(数据)->[代码]鼠标位置，生成范围，生成坐标，蓝量，玩家状态...->生成?
+    // 2. UI:宠物点击->点击数据->[代码].唤醒预制序列@pet?预制变量@sys_pet?...
+    // ->已有序列指令如使用技能，鼠标位置，生成范围，生成坐标，蓝量，玩家状态...->生成?
+    // 前者更紧凑，性能较好，适合策划明确，特性明确，各种执行判定明确的情况，如果写着写着又加新特性可能导致代码混乱, bug
+    // 后者更灵活，性能稍差，适合高度自定义执行逻辑，各分散函数结合起来形成整段自定义逻辑，
+    // 加新特性=加新指令，底层代码不负责具体特性逻辑，混乱与否也取决与序列使用者
+    // 两者都有可能导致混乱+bug的问题，但是就当前工作流来讲 序列系统比完全写到代码，写成系统插件 更加适合
+    // 想象上述所有生成的判定，有百个以上宠物的纯代码和序列的情况
+    // 导出
+    mixer.mix([Skill, Battler, State], petSystem);
+    mixer.mix([Skill, Battler, State], ai_support);
+    exports.petSystem = petSystem;
+    exports.filter = filter;
+    exports.pointerTrigger = pointerTrigger;
+    exports.disablePet = disablePet;
+    
+});
+
+
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Fri Sep 06 2024 19:21:49 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>

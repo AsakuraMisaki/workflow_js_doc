@@ -1,0 +1,4282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>mzarpg - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ScriptableQueryObject.Alerter.html">Alerter</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#changeSize">changeSize</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#hide">hide</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setAlertColor">setAlertColor</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setSafeColor">setSafeColor</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setup">setup</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#show">show</a></li></ul></li><li><a href="ScriptableQueryObject.Battler.html">Battler</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Battler.html#param">param</a></li><li data-type='method'><a href="ScriptableQueryObject.Battler.html#trait">trait</a></li></ul></li><li><a href="ScriptableQueryObject.Server.html">Server</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Server.html#close">close</a></li><li data-type='method'><a href="ScriptableQueryObject.Server.html#get">get</a></li><li data-type='method'><a href="ScriptableQueryObject.Server.html#spread">spread</a></li></ul></li><li><a href="ScriptableQueryObject.Skill.html">Skill</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Skill.html#_updateColliderFilterGroup">_updateColliderFilterGroup</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#action">action</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#addSkill2scene">addSkill2scene</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#bangTerrain">bangTerrain</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#cd">cd</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#collider">collider</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#damage">damage</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#destroy">destroy</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#force">force</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#front">front</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#fsm">fsm</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#getTargets">getTargets</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#pos">pos</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#shake">shake</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#speed">speed</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#sprite">sprite</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#sync">sync</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#tween">tween</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#useskill">useskill</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#velocity">velocity</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#._createSkillOjbectMap">_createSkillOjbectMap</a></li></ul></li><li><a href="ScriptableQueryObject.State.html">State</a></li><li><a href="ScriptableQueryObject.ai_support.html">ai_support</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.ai_support.html#aiAlert">aiAlert</a></li><li data-type='method'><a href="ScriptableQueryObject.ai_support.html#alertCheck">alertCheck</a></li></ul></li><li><a href="ScriptableQueryObject.arpg.html">arpg</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.arpg.html#_weightRule">_weightRule</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#addPIXIfilter">addPIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#addState">addState</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#angle2Radian">angle2Radian</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#clearFreezes">clearFreezes</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#collide">collide</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#dir">dir</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#dir2Radian">dir2Radian</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#freeze">freeze</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#prefabGroup">prefabGroup</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#prefabGroupsCount">prefabGroupsCount</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#preparePIXIfilter">preparePIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#radian2">radian2</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#radian2dir">radian2dir</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#removePIXIfilter">removePIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#removeState">removeState</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#unfreeze">unfreeze</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#weight">weight</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#weightRule">weightRule</a></li></ul></li><li><a href="ScriptableQueryObject.autoPrefab.html">autoPrefab</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#_createPrefab">_createPrefab</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#_createPrefabByBattler">_createPrefabByBattler</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#add2Map">add2Map</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#createPrefab">createPrefab</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#mapObjectPos">mapObjectPos</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#touch2Map">touch2Map</a></li></ul></li><li><a href="ScriptableQueryObject.bone.html">bone</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.bone.html#_boneAniPr">_boneAniPr</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#_bonebase">_bonebase</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#addEl">addEl</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#autoAni">autoAni</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneAniPr">boneAniPr</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneDir">boneDir</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneInit">boneInit</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneMirror">boneMirror</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#commonBoneInit">commonBoneInit</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#posedb">posedb</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#setEl">setEl</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#updateBone">updateBone</a></li></ul></li><li><a href="ScriptableQueryObject.contexter.html">contexter</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.contexter.html#_eon">_eon</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#_execMeetConditions">_execMeetConditions</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#build">build</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#clearCache">clearCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#connect">connect</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#copyCacheA2B">copyCacheA2B</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#createServer">createServer</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#disconnect">disconnect</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eoff">eoff</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eon">eon</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eval">eval</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#export">export</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#fetch">fetch</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#fn">fn</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#gc">gc</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#getCache">getCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#getServer">getServer</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#hook">hook</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#hookoff">hookoff</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#import">import</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#json">json</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#linearValue">linearValue</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#log">log</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#map">map</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#pause">pause</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#prefn">prefn</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#prop">prop</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#random">random</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#resetQuery">resetQuery</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#setCache">setCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#sharelite">sharelite</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#value">value</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#warmArg">warmArg</a></li></ul></li><li><a href="ScriptableQueryObject.inputmap.html">inputmap</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#_input2motion">_input2motion</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#clampInputDir">clampInputDir</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#getInputDir">getInputDir</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#input2motion">input2motion</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#moveinputing">moveinputing</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#updateInputMotions">updateInputMotions</a></li></ul></li><li><a href="ScriptableQueryObject.mzarpg.html">mzarpg</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#_loot">_loot</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#battleCollider">battleCollider</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#canUseSkill">canUseSkill</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#collect">collect</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#comboAdvance">comboAdvance</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#distance">distance</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#free">free</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#getMoveRadWithAdvancedMode">getMoveRadWithAdvancedMode</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#getPose">getPose</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#handled41">handled41</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#hphidden">hphidden</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#lockFPS">lockFPS</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#loot">loot</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#lootStart">lootStart</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#matter">matter</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#move">move</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#pose">pose</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#removeBody">removeBody</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#saveElCount">saveElCount</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#useItem">useItem</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#useSkill">useSkill</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#windowmes">windowmes</a></li></ul></li><li><a href="ScriptableQueryObject.petSystem.html">petSystem</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#getPets">getPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#initPets">initPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#killPets">killPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#loadPets">loadPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#lowerVarCustomPrefix">lowerVarCustomPrefix</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#pet2">pet2</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#petKillSelf">petKillSelf</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#recPet">recPet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#savePets">savePets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#ui_ablePet">ui_ablePet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#ui_disablePet">ui_disablePet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#updatehoverShowPetDebug">updatehoverShowPetDebug</a></li></ul></li></ul><h3>Namespaces</h3><ul><li><a href="ScriptableQueryObject.html">ScriptableQueryObject</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">mzarpg</h1>
+    
+
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>
+            <span class="ancestors"><a href="ScriptableQueryObject.html">ScriptableQueryObject</a>.</span>
+        
+        
+            mzarpg
+        
+        </h2>
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+
+    
+
+    <h4 class="name" id="mzarpg"><span class="type-signature"></span>new mzarpg<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>MZARPG专属</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2483">line 2483</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        </div>
+    
+
+    
+
+    
+
+    
+    
+    
+
+     
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Methods</h3>
+
+        
+            
+
+    
+
+    <h4 class="name" id="_loot"><span class="type-signature"></span>_loot<span class="signature">(type, id, min, max, w1, iconIndex, part, lifetime, easing)</span><span class="type-signature"> &rarr; {array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>单组掉落注册</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line3064">line 3064</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>type</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">w-武器 i-物品 a-防具 g-金币</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">id</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>min</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>0</code>
+                
+                </td>
+            
+
+            <td class="description last">最少掉落</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>max</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>1</code>
+                
+                </td>
+            
+
+            <td class="description last">最多掉落</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>w1</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>0.05</code>
+                
+                </td>
+            
+
+            <td class="description last">掉落阈值，超过这个值则无掉落(不会进行掉落注册)</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>iconIndex</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>0</code>
+                
+                </td>
+            
+
+            <td class="description last">图标索引覆盖，为0则按照数据库图标索引处理</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>part</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>1</code>
+                
+                </td>
+            
+
+            <td class="description last">平均多少个生成一个掉落实体，如将1000个金币处理为10个掉落实体</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>lifetime</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>60</code>
+                
+                </td>
+            
+
+            <td class="description last">掉落曲线的生命周期</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>easing</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>"Cubic"</code>
+                
+                </td>
+            
+
+            <td class="description last">掉落曲线 <a href="https://cdnjs.cloudflare.com/ajax/libs/tween.js/20.0.0/tween.umd.js">https://cdnjs.cloudflare.com/ajax/libs/tween.js/20.0.0/tween.umd.js</a></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    单组掉落信息
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">array</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="battleCollider"><span class="type-signature"></span>battleCollider<span class="signature">(a)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><非通用>获取某个角色的战斗判定碰撞器</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2809">line 2809</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>a</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Battler</span>
+|
+
+<span class="param-type">Game_Character</span>
+|
+
+<span class="param-type">Prefab</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">角色</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    战斗碰撞器
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="canUseSkill"><span class="type-signature"></span>canUseSkill<span class="signature">()</span><span class="type-signature"> &rarr; {any}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>能否使用技能数组</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2613">line 2613</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-examples">Example</h5>
+    
+    <pre class="prettyprint"><code>#canUseSkill:can 1 2 3 4</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">any</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="collect"><span class="type-signature"></span>collect<span class="signature">(name, type, target)</span><span class="type-signature"> &rarr; {any}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>从角色所拥有的状态获取所需的<strong><a href="./ScriptableQueryObject.contexter.html#sharelite">已被分享的</a></strong>函数来进行加法/乘法/叠加计算</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2511">line 2511</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">引用名</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>type</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">"caler"</span>
+|
+
+<span class="param-type">"multi"</span>
+|
+
+<span class="param-type">"value"</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>'caler'</code>
+                
+                </td>
+            
+
+            <td class="description last">计算方式 加法，乘法，叠加</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>target</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Battler</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>this._battler</code>
+                
+                </td>
+            
+
+            <td class="description last">角色</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    任意值
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">any</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="comboAdvance"><span class="type-signature"></span>comboAdvance<span class="signature">(id, key)</span><span class="type-signature"> &rarr; {Skill|undefined}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>连击</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2493">line 2493</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">技能id</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>key</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">按键，判定为按下判定</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    使用后技能
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Skill</span>
+|
+
+<span class="param-type">undefined</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="distance"><span class="type-signature"></span>distance<span class="signature">(a, b)</span><span class="type-signature"> &rarr; {any}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>获取A与B的距离</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2575">line 2575</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>a</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">A</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>b</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">B</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    A与B的距离
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">any</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="free"><span class="type-signature"></span>free<span class="signature">()</span><span class="type-signature"> &rarr; {undefined}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><非通用>让使用者的状态机从施法状态中解放出来</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2758">line 2758</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">undefined</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getMoveRadWithAdvancedMode"><span class="type-signature"></span>getMoveRadWithAdvancedMode<span class="signature">(tpos, pos, w, h, type)</span><span class="type-signature"> &rarr; {number}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>移动类型拓展</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2644">line 2644</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>tpos</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Character</span>
+|
+
+<span class="param-type">Game_Battler</span>
+|
+
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">目标</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>pos</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Character</span>
+|
+
+<span class="param-type">Game_Battler</span>
+|
+
+<span class="param-type">object</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">当前坐标</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>w</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">修正宽度(通常和角色图像一致)<strong>务必注意单位问题，比如如果是角色和角色之间的修正应为格子，如果是碰撞器则应为像素</strong></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>h</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">修正高度(通常和角色图像一致)<strong>务必注意单位问题，比如如果是角色和角色之间的修正应为格子，如果是碰撞器则应为像素</strong></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>type</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>'w'</code>
+                
+                </td>
+            
+
+            <td class="description last">水平类型(通常为2D横版游戏)</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    弧度值
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">number</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="getPose"><span class="type-signature"></span>getPose<span class="signature">(a)</span><span class="type-signature"> &rarr; {string}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>当前动作名</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line3138">line 3138</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>a</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Battler</span>
+|
+
+<span class="param-type">Game_Character</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>this._battler</code>
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    动作名
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">string</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="handled41"><span class="type-signature"></span>handled41<span class="signature">(t, base)</span><span class="type-signature"> &rarr; {any}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>触发“水克火”的效果降低敌人速度时，该次攻击额外造成每层5%的伤害的后置处理</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2888">line 2888</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>t</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>base</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>0.05</code>
+                
+                </td>
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">any</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="hphidden"><span class="type-signature"></span>hphidden<span class="signature">(v)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>延迟隐藏血条</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2876">line 2876</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>v</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>60</code>
+                
+                </td>
+            
+
+            <td class="description last">延迟时间 单位帧</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="lockFPS"><span class="type-signature"></span>lockFPS<span class="signature">(target)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>锁帧(全局!)</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2780">line 2780</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>target</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>60</code>
+                
+                </td>
+            
+
+            <td class="description last">目标帧率</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="loot"><span class="type-signature"></span>loot<span class="signature">()</span><span class="type-signature"> &rarr; {array}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>掉落注册 使用..将多个掉落物品同时注册以降低消耗 <a href="#_loot">->具体实现</a></li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line3000">line 3000</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-examples">Example</h5>
+    
+    <pre class="prettyprint"><code>#loot:drops
+       i 7 5 10 $a.ltr
+       .. g 0 20 100 $a.ltrg 6 10</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    掉落列表
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">array</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="lootStart"><span class="type-signature"></span>lootStart<span class="signature">(list, target, rx, ry)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>开始掉落</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line3019">line 3019</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>list</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">array</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">掉落列表</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>target</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Character</span>
+|
+
+<span class="param-type">Game_Battler</span>
+|
+
+<span class="param-type">Prefab</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">跟踪目标</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>rx</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>6</code>
+                
+                </td>
+            
+
+            <td class="description last">散落水平偏移范围</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>ry</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>0.5</code>
+                
+                </td>
+            
+
+            <td class="description last">散落垂直偏移范围</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="matter"><span class="type-signature"></span>matter<span class="signature">(a)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li><非通用>获取某个角色的移动碰撞器</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2819">line 2819</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>a</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Battler</span>
+|
+
+<span class="param-type">Game_Character</span>
+|
+
+<span class="param-type">Prefab</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">角色</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    移动碰撞器
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="move"><span class="type-signature"></span>move<span class="signature">(type, b, a)</span><span class="type-signature"> &rarr; {any}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>移动close 接近目标away 远离目标random 随机</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2701">line 2701</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>type</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>'close'</code>
+                
+                </td>
+            
+
+            <td class="description last">移动类型</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>b</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Battler</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">目标</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>a</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Battler</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>this._battler</code>
+                
+                </td>
+            
+
+            <td class="description last">移动者</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">any</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="pose"><span class="type-signature"></span>pose<span class="signature">(name, loop, chara)</span><span class="type-signature"> &rarr; {undefined}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>Qsprite角色播放Qsprite动作</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line3109">line 3109</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>name</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">动作名</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>loop</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">boolean</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">循环</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>chara</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Character</span>
+|
+
+<span class="param-type">Game_Battler</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">角色</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">undefined</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="removeBody"><span class="type-signature"></span>removeBody<span class="signature">()</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>移除碰撞器</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2771">line 2771</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-examples">Example</h5>
+    
+    <pre class="prettyprint"><code>removeBody $m $u</code></pre>
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>...bs</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">arguments</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">碰撞器a, b, c ...</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="saveElCount"><span class="type-signature"></span>saveElCount<span class="signature">(t, elcount)</span><span class="type-signature"> &rarr; {any}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>触发“水克火”的效果降低敌人速度时，该次攻击额外造成每层5%的伤害的前置处理</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2854">line 2854</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>t</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>elcount</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">any</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="useItem"><span class="type-signature"></span>useItem<span class="signature">(id, a)</span><span class="type-signature"> &rarr; {object}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>使用物品(类型仅限于物品)</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line3189">line 3189</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+        <th>Default</th>
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                </td>
+            
+
+            <td class="description last">物品id</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>a</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">Game_Character</span>
+|
+
+<span class="param-type">Game_Battler</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+                <td class="default">
+                
+                    <code>this._battler</code>
+                
+                </td>
+            
+
+            <td class="description last">角色</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+<div class="param-desc">
+    成功使用的物品
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">object</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="useSkill"><span class="type-signature"></span>useSkill<span class="signature">(id, a)</span><span class="type-signature"> &rarr; {any}</span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>使用一个技能并自动朝向目标</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line2594">line 2594</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>id</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">技能ID</td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>a</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">面向目标</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5 class="h5-returns">Returns:</h5>
+
+        
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">any</span>
+
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="windowmes"><span class="type-signature"></span>windowmes<span class="signature">(str)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+    
+    <dt class="tag-description">Description:</dt>
+    <dd class="tag-description"><ul class="dummy"><li>临时左下角窗口信息</li></ul></dd>
+    
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ScriptableQueryObject.js.html">ScriptableQueryObject.js</a>, <a href="ScriptableQueryObject.js.html#line3229">line 3229</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5 class="h5-parameters">Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>str</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last">信息</td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Fri Sep 06 2024 19:21:49 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>

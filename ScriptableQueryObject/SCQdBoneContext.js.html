@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>SCQdBoneContext.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ScriptableQueryObject.Alerter.html">Alerter</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#changeSize">changeSize</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#hide">hide</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setAlertColor">setAlertColor</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setSafeColor">setSafeColor</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setup">setup</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#show">show</a></li></ul></li><li><a href="ScriptableQueryObject.Battler.html">Battler</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Battler.html#param">param</a></li><li data-type='method'><a href="ScriptableQueryObject.Battler.html#trait">trait</a></li></ul></li><li><a href="ScriptableQueryObject.Server.html">Server</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Server.html#close">close</a></li><li data-type='method'><a href="ScriptableQueryObject.Server.html#get">get</a></li><li data-type='method'><a href="ScriptableQueryObject.Server.html#spread">spread</a></li></ul></li><li><a href="ScriptableQueryObject.Skill.html">Skill</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Skill.html#_updateColliderFilterGroup">_updateColliderFilterGroup</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#action">action</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#addSkill2scene">addSkill2scene</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#bangTerrain">bangTerrain</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#cd">cd</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#collider">collider</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#damage">damage</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#destroy">destroy</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#force">force</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#front">front</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#fsm">fsm</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#getTargets">getTargets</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#pos">pos</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#shake">shake</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#speed">speed</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#sprite">sprite</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#sync">sync</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#tween">tween</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#useskill">useskill</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#velocity">velocity</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#._createSkillOjbectMap">_createSkillOjbectMap</a></li></ul></li><li><a href="ScriptableQueryObject.State.html">State</a></li><li><a href="ScriptableQueryObject.ai_support.html">ai_support</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.ai_support.html#aiAlert">aiAlert</a></li><li data-type='method'><a href="ScriptableQueryObject.ai_support.html#alertCheck">alertCheck</a></li></ul></li><li><a href="ScriptableQueryObject.arpg.html">arpg</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.arpg.html#_weightRule">_weightRule</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#addPIXIfilter">addPIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#addState">addState</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#angle2Radian">angle2Radian</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#clearFreezes">clearFreezes</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#collide">collide</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#dir">dir</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#dir2Radian">dir2Radian</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#freeze">freeze</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#prefabGroup">prefabGroup</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#prefabGroupsCount">prefabGroupsCount</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#preparePIXIfilter">preparePIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#radian2">radian2</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#radian2dir">radian2dir</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#removePIXIfilter">removePIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#removeState">removeState</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#unfreeze">unfreeze</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#weight">weight</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#weightRule">weightRule</a></li></ul></li><li><a href="ScriptableQueryObject.autoPrefab.html">autoPrefab</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#_createPrefab">_createPrefab</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#_createPrefabByBattler">_createPrefabByBattler</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#add2Map">add2Map</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#createPrefab">createPrefab</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#mapObjectPos">mapObjectPos</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#touch2Map">touch2Map</a></li></ul></li><li><a href="ScriptableQueryObject.bone.html">bone</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.bone.html#_boneAniPr">_boneAniPr</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#_bonebase">_bonebase</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#addEl">addEl</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#autoAni">autoAni</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneAniPr">boneAniPr</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneDir">boneDir</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneInit">boneInit</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneMirror">boneMirror</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#commonBoneInit">commonBoneInit</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#posedb">posedb</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#setEl">setEl</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#updateBone">updateBone</a></li></ul></li><li><a href="ScriptableQueryObject.contexter.html">contexter</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.contexter.html#_eon">_eon</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#_execMeetConditions">_execMeetConditions</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#build">build</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#clearCache">clearCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#connect">connect</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#copyCacheA2B">copyCacheA2B</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#createServer">createServer</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#disconnect">disconnect</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eoff">eoff</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eon">eon</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eval">eval</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#export">export</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#fetch">fetch</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#fn">fn</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#gc">gc</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#getCache">getCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#getServer">getServer</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#hook">hook</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#hookoff">hookoff</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#import">import</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#json">json</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#linearValue">linearValue</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#log">log</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#map">map</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#pause">pause</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#prefn">prefn</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#prop">prop</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#random">random</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#resetQuery">resetQuery</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#setCache">setCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#sharelite">sharelite</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#value">value</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#warmArg">warmArg</a></li></ul></li><li><a href="ScriptableQueryObject.inputmap.html">inputmap</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#_input2motion">_input2motion</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#clampInputDir">clampInputDir</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#getInputDir">getInputDir</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#input2motion">input2motion</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#moveinputing">moveinputing</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#updateInputMotions">updateInputMotions</a></li></ul></li><li><a href="ScriptableQueryObject.mzarpg.html">mzarpg</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#_loot">_loot</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#battleCollider">battleCollider</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#canUseSkill">canUseSkill</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#collect">collect</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#comboAdvance">comboAdvance</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#distance">distance</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#free">free</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#getMoveRadWithAdvancedMode">getMoveRadWithAdvancedMode</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#getPose">getPose</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#handled41">handled41</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#hphidden">hphidden</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#lockFPS">lockFPS</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#loot">loot</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#lootStart">lootStart</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#matter">matter</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#move">move</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#pose">pose</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#removeBody">removeBody</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#saveElCount">saveElCount</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#useItem">useItem</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#useSkill">useSkill</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#windowmes">windowmes</a></li></ul></li><li><a href="ScriptableQueryObject.petSystem.html">petSystem</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#getPets">getPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#initPets">initPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#killPets">killPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#loadPets">loadPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#lowerVarCustomPrefix">lowerVarCustomPrefix</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#pet2">pet2</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#petKillSelf">petKillSelf</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#recPet">recPet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#savePets">savePets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#ui_ablePet">ui_ablePet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#ui_disablePet">ui_disablePet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#updatehoverShowPetDebug">updatehoverShowPetDebug</a></li></ul></li></ul><h3>Namespaces</h3><ul><li><a href="ScriptableQueryObject.html">ScriptableQueryObject</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">SCQdBoneContext.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>
+
+
+(function (global, factory) {
+    if (!global) return;
+    let common = (typeof exports === 'object' &amp;&amp; typeof module !== 'undefined'); // CommonJS
+    common ? factory(exports) : factory(global.ScriptableDBoneContext = {}); //Universal
+})(window || global || self || globalThis, function (exports) {
+
+    const Battler = ScriptableQueryObject.Battler,
+        Skill = ScriptableQueryObject.Skill,
+        State = ScriptableQueryObject.State,
+        mixer = ScriptableQueryObject.mixer,
+        EV = ScriptableQueryObject.EV;
+        getCache = ScriptableQueryObject.getCache;
+        setCache = ScriptableQueryObject.setCache;
+        clearCache = ScriptableQueryObject.clearCache;
+
+    if(typeof(dragonBones) == 'undefined'){
+        throw new Error('dragonBones undefined');
+    }
+    Sprite_Character.prototype.updateHpBar = function() {
+        try {
+            if(this._character.gameObject._hp!==this._hpBar._currentHealth){
+                let result = this._hpBar._currentHealth - this._character.gameObject._hp;
+                if(result > 0){
+                    this._hpBar.decreaseHealth(result);
+                }
+                else if(result&lt;0){
+                    this._hpBar.increaseHealth(Math.abs(result));
+                }
+            }
+        } catch (error) {
+            
+        }
+    };
+    let Sprite_Character_update = Sprite_Character.prototype.update;
+    Sprite_Character.prototype.update = function(){
+        if(this.bone){
+            this.emit('boneupdate');
+            // this.updateHpBar();
+            this.updatePosition();
+            if(this._damageSprite) this._damageSprite.update();
+            if(this.bone.updateCustom) return;
+            this.bone.update(); //更新直接截断
+            return;
+        }
+        Sprite_Character_update.call(this, ...arguments);
+    }
+    let RPG_DragonBones_update = RPG_DragonBones.prototype.update;
+    RPG_DragonBones.prototype.update = function(){
+        RPG_DragonBones_update.call(this, ...arguments);
+        this.emit('update');
+    }
+
+    let RPG_DragonBones_onDragonBonesLoaded = RPG_DragonBones.prototype.onDragonBonesLoaded;
+    RPG_DragonBones.prototype.onDragonBonesLoaded = function(){
+        RPG_DragonBones_onDragonBonesLoaded.call(this, ...arguments);
+        this.emit('loaded');
+    }
+    //防止初始加载的闪烁和可以立刻返回龙骨精灵的一般加载方法
+    RPG_DragonBones.commonLoad = function(name, startAni='idle'){ 
+        let db_sprite = new RPG_DragonBones({ file: name });
+        let _lazy = 5;
+        let lazy = ()=>{
+            if(--_lazy > 0) return;
+            
+            db_sprite.emit('transformok');
+            Graphics._app.ticker.remove(lazy);
+        }
+        let starter = ()=>{
+            db_sprite.play(startAni, 0, true);
+            Graphics._app.ticker.add(lazy);
+        }
+        if(db_sprite.has_dragonbone) starter();
+        else{
+            db_sprite.once('loaded', starter);
+        }
+        db_sprite.updateCustom = false;
+        return db_sprite;
+    }
+    /**
+     * 龙骨上下文
+     * @memberof ScriptableQueryObject
+     * @class
+     */
+    // 龙骨
+    function bone() { }
+    /**
+     * 创建龙骨和初始化&lt;a href="#commonBoneInit">具体实现&lt;/a>
+     * &lt;strong> 必须要在角色精灵初始化完成后才能执行这个, 所以一般放到 预制序列sprite序列中 &lt;/strong>
+     * @param {string} name 龙骨文件名
+     * @param {string} startAni='walk' 初始动画
+     * @param {object} options={} 设置，如初始方向
+     * @returns {RPG_DragonBones} 龙骨对象
+     */
+    bone.prototype.boneInit = function (...args) {
+        let container = this.cache.get('mysprite');    
+        if(!container) return;
+        let db_sprite = this.commonBoneInit(container, ...args);
+        return db_sprite;
+    }
+    /**
+     * 一般龙骨初始化方法
+     * @param {PIXI.Container} container 容器，如玩家精灵或技能精灵
+     * @param {string} name 龙骨文件名
+     * @param {string} startAni='walk' 初始动画
+     * @param {object} options={} 设置，如初始方向
+     * @returns {RPG_DragonBones} 龙骨对象
+     */
+    bone.prototype.commonBoneInit = function (container, name, startAni='walk', options={}) {
+        if(!container) return;
+        let db_sprite = RPG_DragonBones.commonLoad(name, startAni);
+        db_sprite._defaultPose = startAni;
+        container.bone = db_sprite;
+        db_sprite.once('transformok', ()=>{
+            
+            container.addChildAt(db_sprite, 0); //最下层
+            db_sprite.armature.addDBEventListener("complete", ()=>{
+                db_sprite.emit("complete", db_sprite);
+                if(!db_sprite.autoAni) return;
+                if(db_sprite.autoAni.ani == db_sprite.armature.animation.lastAnimationName) return;
+                this._posedb(db_sprite.autoAni.ani, db_sprite.autoAni.fadeIn || 0.2);
+                
+                // db_sprite.autoAni = null;
+            })
+        })
+        if(this instanceof Battler){
+            this._battler.boneInfo = { name, startAni }; // 接管pose指令
+        }
+        
+        this.cache.set('__dbspriteOptions', options);
+        return db_sprite;
+    }
+    bone.prototype._boneProcessAniPrAndOthers = function(b){
+        
+    }
+    /**
+     * 为某个可见实例添加一个新的可见实例
+     * @param {PIXI.DisplayObject} parent 可见实例如龙骨
+     * @param {Array&lt;any>} ...args 对应参数列表
+     */
+    bone.prototype.addEl = function(parent, ...args){
+        if(parent instanceof RPG_DragonBones){
+            return this._addElBone(parent, ...args);
+        }
+        else if(parent instanceof PIXI.Container){
+            // this._addElBone(...args);
+        }
+    }
+    bone.prototype._addElBone = function(parent, ...args){
+        let pname = args[0];
+        let slot = this.getSlot(pname, parent);
+        if(!slot) return;
+        args.shift();
+        let part = RPG_DragonBones.commonLoad(...args);
+        part.once('transformok', ()=>{
+            slot._display.addChild(part);
+        })
+        return part;
+    }
+    /**
+     * 设置一般可见元素的部分属性
+     * @param {PIXI.DisplayObject} el pixi可见对象实例，如龙骨
+     * @param {string} type 类型 
+     * @param {Array&lt;any>} ...args 对应参数列表
+     */
+    bone.prototype.setEl = function(el, type, ...args){
+        setEl[type.toLowerCase()](el, ...args);
+    }
+    const setEl = {
+        anchor: function(el, x, y){
+            isNaN(x) ? null: el.anchor.x = x;
+            isNaN(y) ? null: el.anchor.y = y;
+        },
+        pos: function(el, x, y){
+            isNaN(x) ? null: el.x = x;
+            isNaN(y) ? null: el.y = y;
+        },
+        alpha: function(el, a){
+            isNaN(a) ? null: el.alpha = a;
+        },
+        filter: function(el, f, type='add'){
+            type = type.toLocaleLowerCase();
+            if(type == 'add'){
+                el.filters = el.filters || [];
+                el.filters.push(f);
+            }
+            else if(type == 'remove' &amp;&amp; Array.isArray(el.filters) &amp;&amp; el.filters.length){
+                let i = el.filters.indexOf(f);
+                if(i &lt; 0) return;
+                el.filters.splice(i, 1);
+            }
+        },
+        scale: function(el, x, y){
+            isNaN(x) ? null: el.scale.x = x;
+            isNaN(y) ? null: el.scale.y = y;
+        },
+    }
+    /**
+     * 基本龙骨对象，即boneInit指令创建的那个
+     * @returns {RPG_DragonBones}
+     */
+    bone.prototype._bonebase = function(){
+        let container = getCache(this._battler, 'mysprite');    
+        if(!container) return;
+        // if(!container.bone) return;
+        
+        return container.bone;
+    }
+    /**
+     * 龙骨动画优先级分配
+     * @example boneAniPr $bone .. animation1 10 .. animation2 20
+     * @param {RPG_DragonBones} b=this.bonebase 龙骨对象
+     * @param {Array} ...args &lt;strong>&lt;a href="./#_boneAniPr">具体&lt;/a>&lt;/strong>
+     */
+    bone.prototype.boneAniPr = function (b=this.bonebase, ...args) {
+        let newArgs = this._splitArgs2List(...args);
+        let list = { };
+        newArgs.forEach((l) => {
+            let z = this._boneAniPr(...l);
+            Object.assign(list, z);
+        })
+        b.on('update', ()=>{
+            this._boneProcessAniPrAndOthers(b);
+        })
+        b.aniPr = list;
+    }
+    bone.bonebase = {
+        get: function(){
+            return this._bonebase();
+        }
+    }
+    /**
+     * 动画优先级
+     * @param {string} ani 龙骨拥有的动画名
+     * @param {number} z=1 越大优先级越高
+     */
+    bone.prototype._boneAniPr = function (ani, z=1) {
+        let obj = {};
+        obj[ani] = z;
+        return obj;
+    }
+    /**
+     * 动作
+     * @example // (当序列实体通过boneInit进行龙骨初始化后，原pose指令会被这个接管)
+     * pose run $bone 5 true
+     * @param {string} ani 动作名 
+     * @param {any} b=this.bonebase 龙骨对象
+     * @param {any} times=0 播放次数，为0则循环
+     * @param {any} force=false 强制播放
+     * @param {any} weight=100 过渡速度，单位毫秒
+     * @param {any} a=this._battler 角色
+     * @returns {any}
+     */
+    bone.prototype.posedb = function (ani, fadeIn=0, times = 0, b=this.bonebase, 
+        weight = 100, a = this._battler) {
+            
+        a._pose = ani;
+        if(!b || !b.armature || !b.armature.animation) return;
+        
+        let valid = false;
+        let pr = b.aniPr || { };
+        let ca = b._current_animation;
+        // console.log(this._battler);
+        // if(b._defaultPose &amp;&amp; (ca == b._defaultPose || ani == b._defaultPose)) valid = true;
+        // else if(b.autoAni &amp;&amp; (ca == b.autoAni.ani || ani == b.autoAni.ani)) valid = true;
+        if(b.armature &amp;&amp; b.armature.animation.isCompleted) valid = true;
+        else if(pr[ca] == pr[ani]) valid = true;
+        else if(pr[ca] &lt; pr[ani]) valid = true;
+        else if(pr[ca] > pr[ani]) valid = false;
+        // if(ani == 'fangun'){
+        //     console.log(ca, ani, pr);
+        // }
+        this._posedb(ani, fadeIn, times, valid, b);
+    }
+    bone.prototype._posedb = function(ani, fadeIn, times, valid=true, b=this.bonebase){
+        if(!b || !b.armature || !b.armature.animation) return;
+        if (valid &amp;&amp; b.canAllowAnimationPlay(ani)) {
+            if(fadeIn){
+                b.armature.animation.fadeIn(ani, fadeIn, times);
+            }
+            else{
+                b.armature.animation.play(ani, times);
+            }
+            b._current_animation = ani;
+        }
+    }
+    /**
+     * 设置自动回弹的动作(当前动作播放完后自动回到这个动作)
+     * @param {string} ani 动作名
+     * @param {number} fadeIn 渐入
+     * @param {RPG_DragonBones} b=this.bonebase 龙骨
+     */
+    bone.prototype.autoAni = function(ani, fadeIn, b=this.bonebase){
+        if(!b) return;
+        if(!ani) b.autoAni = null;
+        b.autoAni = { ani, fadeIn };
+    }
+    /**
+     * 龙骨更新
+     * @param {RPG_DragonBones} b 龙骨  
+     */
+    bone.prototype.updateBone = function (b) {
+        if(!b) return;
+        b.updateCustom = true;
+        b.update();
+    }
+    /**
+     * 镜像
+     * @param {string} type='x' 轴 xy为双轴
+     * @param {RPG_DragonBones} b=this.bonebase 龙骨对象
+     */
+    bone.prototype.boneMirror = function (type = 'x', b=this.bonebase) {
+        if(!b) return;
+        type = type.toLowerCase();
+        if(type == 'x'){
+            b.scale.x = -b.scale.x;
+        }
+        else if(type == 'y'){
+            b.scale.y = -b.scale.y;
+        }
+        else if(type == 'xy'){
+            b.scale.x = -b.scale.x;
+            b.scale.y = -b.scale.y;
+        }
+    }
+    /**
+     * 龙骨方向
+     * @param {number} dir 方向
+     * @param {RPG_DragonBones} b=this.bonebase 龙骨
+     * @param {number} startDirb=6 初始方向
+     */
+    bone.prototype.boneDir = function (dir, fadeIn=0, b=this.bonebase, startDir=6) {
+        if(!b || !dir) return;
+        let options = this.cache.get('__dbspriteOptions') || {};
+        let td = (options.startDir || startDir);
+        let tx = (dir == (10 - td)) ? -1 : (dir == td) ? 1 : null;
+        isNaN(tx) ? null : b.scale.x = tx;
+        
+
+        // let lazy = [1, 0.75, 0.5, 0.25, -0.75, -0.5, -0.25, -1];
+        // let start = {a:10000};
+        // let xx = b.scale.x;
+        
+        // new TWEEN.Tween(b.scale).to({x:tx}, 165)
+        // // .easing(TWEEN.Easing.Quartic.In)
+        // .onUpdate(()=>{
+            
+        // }).onComplete(()=>{
+        //     // b.scale.x = -0.5;
+        //     // new TWEEN.Tween(b.scale).to({x:-1}, 200)
+        //     // .easing(TWEEN.Easing.Quartic.In)
+        //     // .start();
+        // }).start();
+        // if (!tx || (b.tscaleX == tx)) return;
+        // b.tscaleX = tx;
+        // b.scale.x = tx;
+        // if (fadeIn &amp;&amp; !b.__boneDirTweeen) {
+        //     fadeIn = fadeIn * 1000;
+        //     // this.__boneDirTweeen ? this.__boneDirTweeen.stop() : null;
+        //     b.__boneDirTweeen = new TWEEN.Tween(b.scale).to({ x: tx }, fadeIn).onUpdate(()=>{
+        //         console.log(b.__boneDirTweeen);
+        //     }).onComplete(()=>{
+        //         b.__boneDirTweeen = null;
+        //     }).start();
+        // }
+        // else if(!fadeIn){
+        //     b.scale.x = tx;
+        // }
+    }
+
+    bone.prototype.getSlot = function(name='root', b=this.bonebase){
+        return b.armature._armature.getSlot(name);
+    }
+
+    bone.prototype.getSlotDisplay = function(name='root', type='_renderDisplay', b=this.bonebase){
+        let s = this.getSlot(name);
+        if(!s) return;
+        return s[type];
+    }
+
+    bone.prototype.worldPos = function(pixi){
+        if(!pixi) return;
+        return {x: pixi.worldTransform.tx, y: pixi.worldTransform.ty};
+    }
+
+    
+
+
+
+    
+    mixer.mix([Battler, State, Skill], bone);
+
+    
+
+    
+
+});
+
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Fri Sep 06 2024 19:21:49 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>

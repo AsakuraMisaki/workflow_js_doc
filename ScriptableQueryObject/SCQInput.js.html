@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>SCQInput.js - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    
+    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="ScriptableQueryObject.Alerter.html">Alerter</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#changeSize">changeSize</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#hide">hide</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setAlertColor">setAlertColor</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setSafeColor">setSafeColor</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#setup">setup</a></li><li data-type='method'><a href="ScriptableQueryObject.Alerter.html#show">show</a></li></ul></li><li><a href="ScriptableQueryObject.Battler.html">Battler</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Battler.html#param">param</a></li><li data-type='method'><a href="ScriptableQueryObject.Battler.html#trait">trait</a></li></ul></li><li><a href="ScriptableQueryObject.Server.html">Server</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Server.html#close">close</a></li><li data-type='method'><a href="ScriptableQueryObject.Server.html#get">get</a></li><li data-type='method'><a href="ScriptableQueryObject.Server.html#spread">spread</a></li></ul></li><li><a href="ScriptableQueryObject.Skill.html">Skill</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.Skill.html#_updateColliderFilterGroup">_updateColliderFilterGroup</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#action">action</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#addSkill2scene">addSkill2scene</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#bangTerrain">bangTerrain</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#cd">cd</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#collider">collider</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#damage">damage</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#destroy">destroy</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#force">force</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#front">front</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#fsm">fsm</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#getTargets">getTargets</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#pos">pos</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#shake">shake</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#speed">speed</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#sprite">sprite</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#sync">sync</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#tween">tween</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#useskill">useskill</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#velocity">velocity</a></li><li data-type='method'><a href="ScriptableQueryObject.Skill.html#._createSkillOjbectMap">_createSkillOjbectMap</a></li></ul></li><li><a href="ScriptableQueryObject.State.html">State</a></li><li><a href="ScriptableQueryObject.ai_support.html">ai_support</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.ai_support.html#aiAlert">aiAlert</a></li><li data-type='method'><a href="ScriptableQueryObject.ai_support.html#alertCheck">alertCheck</a></li></ul></li><li><a href="ScriptableQueryObject.arpg.html">arpg</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.arpg.html#_weightRule">_weightRule</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#addPIXIfilter">addPIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#addState">addState</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#angle2Radian">angle2Radian</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#clearFreezes">clearFreezes</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#collide">collide</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#dir">dir</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#dir2Radian">dir2Radian</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#freeze">freeze</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#prefabGroup">prefabGroup</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#prefabGroupsCount">prefabGroupsCount</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#preparePIXIfilter">preparePIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#radian2">radian2</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#radian2dir">radian2dir</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#removePIXIfilter">removePIXIfilter</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#removeState">removeState</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#unfreeze">unfreeze</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#weight">weight</a></li><li data-type='method'><a href="ScriptableQueryObject.arpg.html#weightRule">weightRule</a></li></ul></li><li><a href="ScriptableQueryObject.autoPrefab.html">autoPrefab</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#_createPrefab">_createPrefab</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#_createPrefabByBattler">_createPrefabByBattler</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#add2Map">add2Map</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#createPrefab">createPrefab</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#mapObjectPos">mapObjectPos</a></li><li data-type='method'><a href="ScriptableQueryObject.autoPrefab.html#touch2Map">touch2Map</a></li></ul></li><li><a href="ScriptableQueryObject.bone.html">bone</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.bone.html#_boneAniPr">_boneAniPr</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#_bonebase">_bonebase</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#addEl">addEl</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#autoAni">autoAni</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneAniPr">boneAniPr</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneDir">boneDir</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneInit">boneInit</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#boneMirror">boneMirror</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#commonBoneInit">commonBoneInit</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#posedb">posedb</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#setEl">setEl</a></li><li data-type='method'><a href="ScriptableQueryObject.bone.html#updateBone">updateBone</a></li></ul></li><li><a href="ScriptableQueryObject.contexter.html">contexter</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.contexter.html#_eon">_eon</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#_execMeetConditions">_execMeetConditions</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#build">build</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#clearCache">clearCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#connect">connect</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#copyCacheA2B">copyCacheA2B</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#createServer">createServer</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#disconnect">disconnect</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eoff">eoff</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eon">eon</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#eval">eval</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#export">export</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#fetch">fetch</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#fn">fn</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#gc">gc</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#getCache">getCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#getServer">getServer</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#hook">hook</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#hookoff">hookoff</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#import">import</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#json">json</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#linearValue">linearValue</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#log">log</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#map">map</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#pause">pause</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#prefn">prefn</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#prop">prop</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#random">random</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#resetQuery">resetQuery</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#setCache">setCache</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#sharelite">sharelite</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#value">value</a></li><li data-type='method'><a href="ScriptableQueryObject.contexter.html#warmArg">warmArg</a></li></ul></li><li><a href="ScriptableQueryObject.inputmap.html">inputmap</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#_input2motion">_input2motion</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#clampInputDir">clampInputDir</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#getInputDir">getInputDir</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#input2motion">input2motion</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#moveinputing">moveinputing</a></li><li data-type='method'><a href="ScriptableQueryObject.inputmap.html#updateInputMotions">updateInputMotions</a></li></ul></li><li><a href="ScriptableQueryObject.mzarpg.html">mzarpg</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#_loot">_loot</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#battleCollider">battleCollider</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#canUseSkill">canUseSkill</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#collect">collect</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#comboAdvance">comboAdvance</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#distance">distance</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#free">free</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#getMoveRadWithAdvancedMode">getMoveRadWithAdvancedMode</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#getPose">getPose</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#handled41">handled41</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#hphidden">hphidden</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#lockFPS">lockFPS</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#loot">loot</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#lootStart">lootStart</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#matter">matter</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#move">move</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#pose">pose</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#removeBody">removeBody</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#saveElCount">saveElCount</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#useItem">useItem</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#useSkill">useSkill</a></li><li data-type='method'><a href="ScriptableQueryObject.mzarpg.html#windowmes">windowmes</a></li></ul></li><li><a href="ScriptableQueryObject.petSystem.html">petSystem</a><ul class='methods'><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#getPets">getPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#initPets">initPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#killPets">killPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#loadPets">loadPets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#lowerVarCustomPrefix">lowerVarCustomPrefix</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#pet2">pet2</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#petKillSelf">petKillSelf</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#recPet">recPet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#savePets">savePets</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#ui_ablePet">ui_ablePet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#ui_disablePet">ui_disablePet</a></li><li data-type='method'><a href="ScriptableQueryObject.petSystem.html#updatehoverShowPetDebug">updatehoverShowPetDebug</a></li></ul></li></ul><h3>Namespaces</h3><ul><li><a href="ScriptableQueryObject.html">ScriptableQueryObject</a></li></ul>
+    
+</nav>
+
+<div id="main">
+    
+    <h1 class="page-title">SCQInput.js</h1>
+    
+
+    
+
+
+
+    
+    <section>
+        <article>
+            <pre class="prettyprint source linenums"><code>/*:
+@target 
+
+@plugindesc ScriptableQuery序列系统-宽松输入拓展
+@help 标准web keys名 https://www.w3.org/TR/uievents-key/
+
+InputAPI判定将由行为名确定而非按键名如 a-dosomething
+Input.isTriggered("a") //x
+Input.isTriggered("dosomething") //√
+
+差异:
+假设某个动作游戏，有三种输入兼容，在Scene_Map(地图)场景中，可能需要较长的判断代码，如果有释放，按住，按住时长就更麻烦了
+【原】Input.isTriggered("攻击按键") || TouchInput.isTriggered() || Input.isTriggered("攻击按键(手柄)")
+【新】Input.isTriggered("攻击行为名")
+
+假设某个按键，在攻击时表示远程攻击，在UI中表示返回，key的语义比较模糊
+【原】远程时:Input.isTriggered(key) UI时:Input.isTriggered(key) 
+【新】远程时:Input.isTriggered("远程攻击") UI时:Input.isTriggered("返回")
+
+此外，增加了松开，双击间隔，按住时长，且对手柄，键盘，鼠标的判定API是一致的，包括兼容多手柄和手柄间差异按键ID等
+
+@author
+* @param pointer
+* @text 点击
+* @default []
+* @type struct&lt;mouse>[]
+* @desc 
+
+* @param keyboard
+* @text 键盘
+* @default ["{\"key\":\"w\",\"motion\":\"up\"}","{\"key\":\"s\",\"motion\":\"down\"}","{\"key\":\"a\",\"motion\":\"left\"}","{\"key\":\"d\",\"motion\":\"down\"}"]
+* @type struct&lt;keyboard>[]
+* @desc 
+
+* @param gamepad1
+* @text 手柄1
+* @default []
+* @type struct&lt;gamepad>[]
+* @desc 
+
+* @param gamepad2
+* @text 手柄2
+* @default []
+* @type struct&lt;gamepad>[]
+* @desc 
+
+* @param gamepad3
+* @text 手柄3
+* @default []
+* @type struct&lt;gamepad>[]
+* @desc 
+
+* @param gamepad4
+* @text 手柄4
+* @default []
+* @type struct&lt;gamepad>[]
+* @desc 
+
+* @param debuging
+* @text 开发时
+* @default true
+* @type boolean
+* @desc 一般在部署时才需要关闭这个(config储存文件的按键映射会覆盖插件参数，用于保存按键映射)
+*/
+/*~struct~mouse: 
+ *
+ * @param key
+ * @text 按键
+ * @type select
+ * @option 左键
+ * @value m0
+ * @option 右键
+ * @value m2
+ * @option 中键
+ * @value m1
+ * 
+ * @param motion
+ * @text 行为
+ * @type String
+ */
+/*~struct~keyboard: 
+ *
+ * @param key
+ * @text 按键
+ * @desc 标准web keys名 https://www.w3.org/TR/uievents-key/
+ * @type String
+ * 
+ * @param motion
+ * @text 行为
+ * @type String
+ */
+/*~struct~gamepad: 
+ *
+ * @param key
+ * @text 按键
+ * @type select
+ * @option 0
+ * @value m0
+ * @option 右键
+ * @value m2
+ * @option 中键
+ * @value m1
+ * 
+ * @param motion
+ * @text 行为
+ * @type String
+ */
+
+
+// ===========================  内置模块  ===========================
+
+(function (global, factory) {
+    if (!global) return;
+    let common = (typeof exports === 'object' &amp;&amp; typeof module !== 'undefined'); // CommonJS
+    common ? factory(exports) : factory(global.ScriptableInput = {}); //Universal
+})(window || global || self || globalThis, function (exports) {
+
+    let Params = PluginManager.parameters('SCQInput');
+    Params.debuging = (PluginManager.parameters('debuging') == 'true');
+    Params.mapper = {
+        keyboard: JSON.parse(Params['keyboard'] || '[]'),
+        pointer: JSON.parse(Params['pointer'] || '[]'),
+        gamepad1: JSON.parse(Params['gamepad1'] || '[]'),
+    }
+    let mapper = { __SCQ__:true };
+    for(let name in Params.mapper){
+        let array = Params.mapper[name];
+        if(!Array.isArray(array)) continue;
+        array.map((data)=>{
+            data = JSON.parse(data);
+            let m = data.motion;
+            mapper[m] = mapper[m] || {};
+            mapper[m][data.key.toLocaleLowerCase()] = true;
+        })
+    }
+    Params.mapper = mapper;
+    // 读取设置
+    let ConfigManager_applyData = ConfigManager.applyData;
+    ConfigManager.applyData = function() {
+        ConfigManager_applyData.call(this, ...arguments);
+        if(ConfigManager.keyMapper == undefined){
+            ConfigManager.keyMapper = Params.mapper;
+            ConfigManager.save();
+            _Input.clear();
+        }
+        else if(!Params.debuging &amp;&amp; ConfigManager.keyMapper &amp;&amp; ConfigManager.keyMapper.__SCQ__){
+            Params.mapper = ConfigManager.keyMapper;
+            _Input.clear();
+        }
+    }
+    // 保存设置
+    let ConfigManager_makeData = ConfigManager.makeData;
+    ConfigManager.makeData = function() {
+        let config = ConfigManager_makeData.call(this, ...arguments);
+        config.keyMapper = this.keyMapper;
+        return config;
+    }
+
+    const Battler = ScriptableQueryObject.Battler,
+        Skill = ScriptableQueryObject.Skill,
+        State = ScriptableQueryObject.State,
+        mixer = ScriptableQueryObject.mixer,
+        EV = ScriptableQueryObject.EV;
+
+
+    /**
+     * &lt;strong>基于真实时间的而非帧的&lt;/strong>输入类
+     */
+    const _Input = {
+
+        setup:function(){
+            const pf = { passive: false };
+            document.addEventListener("keydown", this._onKeyDown.bind(this));
+            document.addEventListener("keyup", this._onKeyUp.bind(this));
+            document.addEventListener("pointerdown", this._onPointerDown.bind(this));
+            document.addEventListener("pointermove", this._onPointerMove.bind(this));
+            document.addEventListener("pointerup", this._onPointerUp.bind(this));
+            document.addEventListener("wheel", this._onWheel.bind(this), pf);
+            window.addEventListener("blur", this.clear.bind(this));
+            this.clear();
+            this.setRepeatWait();
+            this.clampDirection();
+        },
+
+        clear:function(){
+            this._currentState = new Map();
+            this._gcing = new Map();
+            this._pointer = { _x:0, _y:0, x:0, y:0, wx:0, wy:0, _wx:0, _wy:0, ids:new Map() };
+            this.now = performance.now();
+        },
+
+
+        _onKeyDown:function(e){
+            if(e.repeat) {
+                EV.emit('inputkeypress');
+                return;
+            }
+            let { key, keyCode } = e;
+            key = key.toLocaleLowerCase();
+            this._currentState.set(key, { press:-1 });
+            EV.emit('inputkeydown');
+        },
+
+        _onKeyUp:function(e){
+            let { key, keyCode } = e;
+            key = key.toLocaleLowerCase();
+            const data = this._currentState.get(key);
+            if(data){
+                data.press = 1;
+                this._gcing.set(key, data);
+            }
+            this._currentState.delete(key);
+            // const data1 = this.getMapper()[key];
+            // if(data1){
+            //     for(let k in data1){
+            //         console.log(k)
+            //         this._onKeyUp({ key:k })
+            //     }
+            // }
+            EV.emit('inputkeyup');
+        },
+
+        pointerCoor: function(e){
+            this._pointer._x = this._pointer.x;
+            this._pointer._y = this._pointer.y;
+            const x = Graphics.pageToCanvasX(e.x); //240718 多点触碰需要测试和修改
+            const y = Graphics.pageToCanvasY(e.y);
+            this._pointer.x = x;
+            this._pointer.y = y;
+            return { x, y };
+        },
+
+        pointerKey: function(e){
+            let key = 'm0';
+            if(e.pointerType == 'mouse'){
+                key = `m${e.button}`;
+                this._currentState.set(key, { press:-1 });
+            }
+            else if(e.pointerType == 'touch'){ 
+                this._pointer.ids.set(e.pointerId, true); //240718 多点触碰需要测试和修改
+                if(this._pointer.ids.length >= 2){
+                    key = 'm2';
+                }
+            }
+            return key;
+        },
+
+        _onPointerDown:function(e){
+            this.pointerCoor(e);
+            let key = this.pointerKey(e);
+            this._onKeyDown({ key, keyCode:0 });
+        },
+
+        _onPointerMove:function(e){
+            this.pointerCoor(e);
+            EV.emit('inputpointermove');
+        },
+
+        _onPointerUp:function(e){
+            this.pointerCoor(e);
+            let key = this.pointerKey(e);
+            this._onKeyUp({ key, keyCode:0 });
+        },
+
+        _onWheel: function(e){
+            this._pointer._wx += e.deltaX;
+            this._pointer._wy += e.deltaY;
+            EV.emit('inputwheel');
+        },
+
+        getMapper: function(){
+            if(!Params.debuging &amp;&amp; ConfigManager.keyMapper &amp;&amp; ConfigManager.keyMapper.__SCQ__) 
+                return ConfigManager.keyMapper;
+            return Params.mapper;
+        },
+
+        getPointer: function(){
+            return  { x, y, wx, wy } = this._pointer;
+        },
+
+        _signX: function() {
+            const left = this.isPressed("left", 0) ? 1 : 0;
+            const right = this.isPressed("right", 0) ? 1 : 0;
+            return right - left;
+        },
+        
+        _signY: function() {
+            const up = this.isPressed("up", 0) ? 1 : 0;
+            const down = this.isPressed("down", 0) ? 1 : 0;
+            return down - up;
+        },
+
+        /**
+         * 设置双击的判定范围，单位毫秒
+         * @param {any} value=200
+         */
+        setRepeatWait: function(value = 200){
+            this._repeatWait = value;
+        },
+
+        update:function(){
+            let now = performance.now();
+            // 真实时间
+            let d = now - this.now;
+            // 更新未释放的
+            this._currentState.forEach((pressing, key)=>{
+                if(pressing.press &lt; 0){
+                    pressing.press++;
+                    return;
+                }
+                // console.log(key, pressing);
+                pressing.press += d;
+            })
+            // 更新释放的
+            this._gcing.forEach((pressing, key, gc)=>{
+                if(pressing.press > 0){
+                    pressing.press--;
+                    return;
+                }
+                pressing.press -= d;
+                if(pressing.press &lt;= -this._repeatWait){
+                    gc.delete(key);
+                }
+            })
+            // 更新滚轮和鼠标位置
+            this._pointer.wx = this._pointer._wx;
+            this._pointer.wy = this._pointer._wy;
+            this._pointer._wx = 0;
+            this._pointer._wy = 0;
+            // console.log(this._pointer);
+            this.now = now;
+            // console.log(this._currentState, this._gcing)
+            EV.emit('inputupdate', this._currentState, this._gcing);
+        },
+
+        pointerMoving: function(){ // 搁置
+            const data = { x, y, lx, ly } = this._pointer;
+            if(x == lx &amp;&amp; y == ly) return;
+            return data;
+        },
+
+        isAnyTriggered: function(mouse=false){
+            let find;
+            this._currentState.forEach((data, key)=>{
+                if(find) return;
+                if(!mouse &amp;&amp; /^m/i.test(key)) return;
+                let triggered = this.isTriggered(key);
+                find = (triggered ? { key, data } : null);
+            })
+            return find;
+        },
+
+        wheeling: function(){
+            if(!this._pointer.wx &amp;&amp; !this._pointer.wy) return;
+            return { wx, wy } = this._pointer;
+        },
+
+        isTriggered:function(key){
+            const data = this.getMapper()[key];
+            if(data){
+                for(let k in data){
+                    let t = this.isTriggered(k);
+                    if(t) return t;
+                }
+            }
+            let state = this._currentState.get(key);
+            return state &amp;&amp; state.press == 0;
+        },
+
+        isPressed:function(key, time = 300){
+            const data = this.getMapper()[key];
+            if(data){
+                for(let k in data){
+                    let p = this.isPressed(k, time);
+                    if(p) return p;
+                }
+            }
+            if(this._currentState){
+                this;
+            }
+            let state = this._currentState.get(key);
+            return state &amp;&amp; state.press >= time;
+        },
+
+        
+        pointerInside:function(x0=0, y0=0, w=0, h=0){
+            let rect = new PIXI.Rectangle(x0, y0, w, h);
+            const {x, y} = this._pointer;
+            let inside = rect.contains(x, y);
+            return inside;
+        },
+
+        isReleased:function(key){
+            const data = this.getMapper()[key];
+            if(data){
+                for(let k in data){
+                    if(this.isPressed(k, 0)) return;
+                    let r = this.isReleased(k);
+                    if(r) return r;
+                }
+            }
+            let state = this._gcing.get(key);
+            return state &amp;&amp; state.press == 0;
+        },
+
+        isRepeated:function(key, time = this._repeatWait){
+            const data = this.getMapper()[key];
+            if(data){
+                
+                for(let k in data){
+                    let r = this.isRepeated(k, time);
+                    if(r) return r;
+                }
+            }
+            let trigger = this.isTriggered(key);
+            let gcing = this._gcing.get(key);
+            if(key == 'm0' &amp;&amp; trigger){
+                console.log(gcing);
+            }
+            if(time){
+                return trigger &amp;&amp; gcing &amp;&amp; (gcing.press >= -time);
+            }
+            return trigger &amp;&amp; gcing;
+        },
+
+        override:function(){
+            if(typeof(Input) == 'undefined') return;
+            let _this = this;
+            SceneManager.initInput = function() {
+                _this.setup();
+            }
+            SceneManager.updateInputData = function() {
+                _this.update();
+            }
+
+            Input.isTriggered = this.isTriggered.bind(this);
+            Input.isPressed = this.isPressed.bind(this);
+            Input.isLongPressed = this.isPressed.bind(this);
+            Input.isReleased = this.isReleased.bind(this);
+            Input.isRepeated = this.isRepeated.bind(this);
+            Input._signX = this._signX.bind(this);
+            Input._signY = this._signY.bind(this);
+            Input.pointerInside = this.pointerInside.bind(this);
+            Window_Selectable.prototype.updateInputData = function(){ this.clearScrollStatus(); }
+
+            TouchInput.isRepeated = (key='m0')=>{
+                key = key.toLocaleLowerCase();
+                return this.isRepeated(key);
+            }
+            TouchInput.isTriggered = (key='m0')=>{
+                key = key.toLocaleLowerCase();
+                return this.isTriggered(key);
+            }
+            TouchInput.isCancelled = (key='m2')=>{
+                key = key.toLocaleLowerCase();
+                return this.isTriggered(key);
+            }
+            TouchInput.isPressed = (key='m0')=>{
+                key = key.toLocaleLowerCase();
+                return this.isPressed(key);
+            }
+            TouchInput.isLongPressed = TouchInput.isPressed;
+            TouchInput.isReleased = (key='m0')=>{
+                key = key.toLocaleLowerCase();
+                return this.isReleased(key);
+            }
+            TouchInput.isHovered = function(){};
+            TouchInput._currentState = {};
+            EV.on('inputupdate', ()=>{
+                Input._updateDirection();
+                // Input._dir8 = (this._dirClamp[Input._dir8] || Input._dir8);
+                // Input._dir4 = (this._dirClamp[Input._dir4] || Input._dir4);
+                TouchInput._x = TouchInput.x = this._pointer.x;
+                TouchInput._y = TouchInput.y = this._pointer.y;
+                TouchInput._currentState.wheelX = this._pointer._wx;
+                TouchInput._currentState.wheelY = this._pointer._wy;
+            })
+        },
+
+        clampDirection: function(...mapping){
+            this._dirClamp = {};
+            mapping.forEach((d, i, map)=>{
+                if(i % 2) return;
+                this._dirClamp[d] = map[i+1];
+            })
+        },
+
+        change: function(motion, a='', b='', save=true){
+            if(a == b) return;
+            let mapper = Params.mapper;
+            a = a.toLocaleLowerCase();
+            b = b.toLocaleLowerCase();
+            mapper[motion] = mapper[motion] || { };
+            delete mapper[motion][a];
+            b = b.toLocaleLowerCase();
+            mapper[motion][b] = true;
+            if(save){
+                ConfigManager.keyMapper = Params.mapper;
+            }
+        }
+
+    };
+
+    _Input.override();
+
+    // 类godot按键信号，而非键鼠，手柄单独绑定的currentState结构
+    /**
+     * 输入拓展
+     * @memberof ScriptableQueryObject
+     * @class
+     */
+    function inputmap() { }
+    /**
+     * 按键映射到 {行为名, 行为} 结构
+     * @example input2motion skill1 m0 {.S useSkill 1}
+     * @param {Array} ...args &lt;strong>&lt;a href="./#_input2motion">具体&lt;/a>&lt;/strong>
+     * @return {object} 映射后结构
+     */
+    inputmap.prototype.input2motion = function (...args) {
+        let newArgs = this._splitArgs2List(...args);
+        this._inputmap = this._inputmap || {};
+        newArgs.forEach((l) => {
+            this._input2motion(...l)
+        })
+        return this._inputmap;
+    }
+    /**
+     * 方向重映射
+     * @example clampInputDir 9 6 3 6 1 4 7 4
+     * 9,3->6 1,7->4
+     * @param {Array&lt;number>} ...args
+     */
+    inputmap.prototype.clampInputDir = function(...args){
+        _Input.clampDirection(...args);
+    }
+    /**
+     * 从按键获取方向
+     * @param {boolean} clamp 应用clampInputDir限制
+     */
+    inputmap.prototype.getInputDir = function(clamp = true){
+        // console.log(_Input._dirClamp, Input._dir8);
+        let result = clamp ? 
+        (_Input._dirClamp[Input._dir8] || Input._dir8 || Input._dir4) : 
+        (Input._dir8 || Input._dir4);
+        // console.log(_Input._dirClamp, Input._dir8, result);
+        return result;
+    }
+    /**
+     * 是否正通过输入来移动
+     * @return {boolean} 
+     */
+    inputmap.prototype.moveinputing = function(){
+        return Input.dir8;
+    }
+    /**
+     * 按键映射到 {行为名, 行为} 结构
+     * @param {string} motion 行为名，任意
+     * @param {string|number} key 按键，任意web支持按键 @link https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/keyCode
+     * @example m前缀m0, m1, m2鼠标，p前缀pa pb ...手柄
+     * @param {object|Function} source 方法块(自定义函数)或指令
+     * @param {string} type='down' @example down-按下 up-松开 press100-按住100毫秒
+     * @param {number} threshold=0.5 手柄滚动轴阈值，通常不用处理
+     */
+    inputmap.prototype._input2motion = function (motion, source, type = 'down', threshold = 0.5) {
+        key = `${key}`.toLocaleLowerCase();
+        let inputType = 1; //键盘
+        let press = 0;
+        if (/m0|m1|m2/i.test(key)) { //鼠标
+            inputType = 0;
+        }
+        else if (/p./i.test(key)) { //手柄
+            inputType = 0;
+        }
+        if (/^press/i.test(type)) {
+            type = 'press';
+            press = Number(/^press(\d+)/i.exec(type)[1]) || 1000;
+        }
+        this._inputmap[motion] = { threshold, source, type, inputType, press };
+    }
+    /**
+     * 处理按键映射
+     * @param {object} inputs 映射结构
+     */
+    inputmap.prototype.updateInputMotions = function (inputs = this._inputmap) {
+        if (!inputs) return;
+        for (let m in inputs) {
+            const { source, type, press } = inputs[m];
+            let ok;
+            if (type == 'down') {
+                ok = Input.isTriggered(m);
+            }
+            else if (type == 'press') {
+                ok = Input.isPressed(m, press);
+            }
+            else if (type == 'up') {
+                ok = Input.isReleased(m);
+            }
+            if(ok){
+                this._processInputMotion(source);
+            }
+        }
+    }
+    /**
+     * 处理按键行为
+     * @private
+     * @param {object|Function} source 
+     */
+    inputmap.prototype._processInputMotion = function (source) {
+        if (source &amp;&amp; source.list) {
+            return this.exec(source);
+        }
+        else if (typeof (source) == 'function') {
+            return source(this);
+        }
+    }
+    inputmap.prototype.testInput = function (...inputs) {
+        let t0 = _Input.isAnyTriggered();
+        let t1 = _Input.isAnyTriggered(true);
+        if(t0){
+            console.log('any no mouse', t0.data.press);
+        }
+        if(t1){
+            console.log('any no mouse', t1.data.press);
+        }
+        let wheel = _Input.wheeling();
+        if(wheel){
+            console.log('wheeling', wheel);
+        }
+        inputs.forEach((key)=>{
+            let k = `${key}`.toLocaleLowerCase();
+            if(_Input.isTriggered(k)){
+                console.log('isTriggered', k);
+            }
+            if(_Input.isPressed(k, 0)){
+                console.log('isPressed', k);
+            }
+            if(_Input.isReleased(k)){
+                console.log('isReleased', k);
+            }
+            if(_Input.isRepeated(k)){
+                console.log('isRepeated', k);
+            }
+        })
+    }
+    mixer.mix([Battler, State, Skill], inputmap);
+
+
+    exports.inputmap = inputmap;
+    exports._Input = _Input;
+    exports.keyMapper = Params.mapper;
+});
+
+</code></pre>
+        </article>
+    </section>
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.2</a> on Fri Sep 06 2024 19:21:49 GMT+0800 (中国标准时间) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>
