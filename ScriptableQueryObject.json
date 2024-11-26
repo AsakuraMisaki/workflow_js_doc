@@ -1,9 +1,0 @@
-{
-    "opts": {
-        "template": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\docdash",
-        "destination": "G:\\SDK\\workflow_js_doc\\ScriptableQueryObject"
-    },
-    "docdash":{
-        "search": true
-    }
-}
