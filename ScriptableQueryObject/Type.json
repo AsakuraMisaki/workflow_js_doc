@@ -1070,7 +1070,7 @@
       "meta": {
         "range": [
           4290,
-          17105
+          17108
         ],
         "filename": "SCQInput.js",
         "lineno": 169,
@@ -1133,15 +1133,15 @@
       "comment": "/**\r\n     * 输入拓展\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          17272,
-          17295
+          17275,
+          17298
         ],
         "filename": "SCQInput.js",
         "lineno": 541,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100006592",
+          "id": "astnode100006586",
           "name": "inputmap",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -1159,15 +1159,15 @@
       "comment": "/**\r\n     * 按键映射到 {行为名, 行为} 结构\r\n     * @example input2motion skill1 m0 {.S useSkill 1}\r\n     * @param {Array} ...args <strong><a href=\"./#_input2motion\">具体</a></strong>\r\n     * @return {object} 映射后结构\r\n     */",
       "meta": {
         "range": [
-          17515,
-          17794
+          17518,
+          17797
         ],
         "filename": "SCQInput.js",
         "lineno": 548,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100006596",
+          "id": "astnode100006590",
           "name": "inputmap.prototype.input2motion",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1216,15 +1216,15 @@
       "comment": "/**\r\n     * 方向重映射\r\n     * @example clampInputDir 9 6 3 6 1 4 7 4\r\n     * 9,3->6 1,7->4\r\n     * @param {Array<number>} ...args\r\n     */",
       "meta": {
         "range": [
-          17940,
-          18041
+          17943,
+          18044
         ],
         "filename": "SCQInput.js",
         "lineno": 562,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100006645",
+          "id": "astnode100006639",
           "name": "inputmap.prototype.clampInputDir",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1257,15 +1257,15 @@
       "comment": "/**\r\n     * 从按键获取方向\r\n     * @param {boolean} clamp 应用clampInputDir限制\r\n     */",
       "meta": {
         "range": [
-          18130,
-          18481
+          18133,
+          18484
         ],
         "filename": "SCQInput.js",
         "lineno": 569,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100006663",
+          "id": "astnode100006657",
           "name": "inputmap.prototype.getInputDir",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1299,15 +1299,15 @@
       "comment": "/**\r\n     * 是否正通过输入来移动\r\n     * @return {boolean} \r\n     */",
       "meta": {
         "range": [
-          18551,
-          18631
+          18554,
+          18634
         ],
         "filename": "SCQInput.js",
         "lineno": 581,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100006704",
+          "id": "astnode100006698",
           "name": "inputmap.prototype.moveinputing",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1334,15 +1334,15 @@
       "comment": "/**\r\n     * 按键映射到 {行为名, 行为} 结构\r\n     * @param {string} motion 行为名，任意\r\n     * @param {string|number} key 按键，任意web支持按键 @link https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/keyCode\r\n     * @example m前缀m0, m1, m2鼠标，p前缀pa pb ...手柄\r\n     * @param {object|Function} source 方法块(自定义函数)或指令\r\n     * @param {string} type='down' @example down-按下 up-松开 press100-按住100毫秒\r\n     * @param {number} threshold=0.5 手柄滚动轴阈值，通常不用处理\r\n     */",
       "meta": {
         "range": [
-          19076,
-          19667
+          19079,
+          19670
         ],
         "filename": "SCQInput.js",
         "lineno": 593,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100006717",
+          "id": "astnode100006711",
           "name": "inputmap.prototype._input2motion",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1426,15 +1426,15 @@
       "comment": "/**\r\n     * 处理按键映射\r\n     * @param {object} inputs 映射结构\r\n     */",
       "meta": {
         "range": [
-          19742,
-          20419
+          19745,
+          20422
         ],
         "filename": "SCQInput.js",
         "lineno": 613,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100006817",
+          "id": "astnode100006811",
           "name": "inputmap.prototype.updateInputMotions",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1470,15 +1470,15 @@
       "comment": "/**\r\n     * 处理按键行为\r\n     * @private\r\n     * @param {object|Function} source \r\n     */",
       "meta": {
         "range": [
-          20516,
-          20767
+          20519,
+          20770
         ],
         "filename": "SCQInput.js",
         "lineno": 638,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100006914",
+          "id": "astnode100006908",
           "name": "inputmap.prototype._processInputMotion",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1510,15 +1510,15 @@
       "comment": "/**\r\n     * 宠物拓展\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          1469,
-          1492
+          1471,
+          1494
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 77,
+        "lineno": 78,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007236",
+          "id": "astnode100007230",
           "name": "petSystem",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -1536,15 +1536,15 @@
       "comment": "/**\r\n     * 初始化宠物列表，这将使当前序列(如玩家序列)可以侦听各类相关事件如从UI中确认召唤等\r\n     * @returns {Map} 宠物列表\r\n     */",
       "meta": {
         "range": [
-          1596,
-          1661
+          1598,
+          1663
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 82,
+        "lineno": 83,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007241",
+          "id": "astnode100007235",
           "name": "petSystem.prototype.initPets",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1572,15 +1572,15 @@
       "comment": "/**\r\n     * 保存宠物列表<strong>为文本</strong>\r\n     * @param {Map} pets 宠物列表，如为空将自动获取\r\n     * @returns {string} 保存后文本\r\n     */",
       "meta": {
         "range": [
-          1792,
-          2160
+          1794,
+          2175
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 90,
+        "lineno": 91,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007250",
+          "id": "astnode100007244",
           "name": "petSystem.prototype.savePets",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1626,15 +1626,15 @@
       "comment": "/**\r\n     * 加载宠物列表\r\n     * @param {string} pets='' 待序列化文本\r\n     * @returns {Map} 宠物列表\r\n     */",
       "meta": {
         "range": [
-          2500,
-          2619
+          2515,
+          2634
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 113,
+        "lineno": 114,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007305",
+          "id": "astnode100007302",
           "name": "petSystem.prototype.loadPets",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1674,15 +1674,15 @@
       "comment": "/**\r\n     * 获取宠物列表 \r\n     * @returns {Map} 宠物列表\r\n     */",
       "meta": {
         "range": [
-          3061,
-          3182
+          3076,
+          3197
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 130,
+        "lineno": 131,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007392",
+          "id": "astnode100007389",
           "name": "petSystem.prototype.getPets",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1710,15 +1710,15 @@
       "comment": "/**\r\n     * 杀死宠物，如果存在宠物的逻辑序列，该序列将立刻被销毁\r\n     * @param {...Game_Battler} ...kills 需要销毁的宠物\r\n     */",
       "meta": {
         "range": [
-          3291,
-          3650
+          3306,
+          3665
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 138,
+        "lineno": 139,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007412",
+          "id": "astnode100007409",
           "name": "petSystem.prototype.killPets",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1754,15 +1754,15 @@
       "comment": "/**\r\n     * 移除宠物 \r\n     * @example #petKillSelf ^$gamePlayer\r\n     * @param {Game_Character} target 宠物拥有者如玩家\r\n     */",
       "meta": {
         "range": [
-          3779,
-          4120
+          3794,
+          4135
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 154,
+        "lineno": 155,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007486",
+          "id": "astnode100007483",
           "name": "petSystem.prototype.petKillSelf",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1799,15 +1799,15 @@
       "comment": "/**\r\n     * 成为某个角色如玩家的宠物\r\n     * @param {ame_Battler|Game_Character} a 角色\r\n     * @param {number} coverId 覆盖id <strong>通常来说，未捕捉和宠物有明确的逻辑差别(逻辑序列应该不同)，务必理解这个参数</strong>\r\n     * @param {string} autoq='destroy' 成功后开启序列\r\n     * @returns {boolean}\r\n     */",
       "meta": {
         "range": [
-          4726,
-          5428
+          4741,
+          5443
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 176,
+        "lineno": 177,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007615",
+          "id": "astnode100007612",
           "name": "petSystem.prototype.pet2",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1877,15 +1877,15 @@
       "comment": "/**\r\n     * 回收宠物\r\n     * @example recPet ^$gamePlayer \r\n     * @param {Game_Battler|Game_Character} a 回收者，如玩家\r\n     * @param {string} autoq='destroy' 如成功，自动执行序列\r\n     * @returns {boolean}\r\n     */",
       "meta": {
         "range": [
-          6211,
-          6671
+          6226,
+          6686
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 219,
+        "lineno": 220,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007819",
+          "id": "astnode100007816",
           "name": "petSystem.prototype.recPet",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1945,15 +1945,15 @@
       "comment": "/**\r\n     * 自定义底层预制变量前缀\r\n     * @param {string} prefix='low_' 前缀\r\n     */",
       "meta": {
         "range": [
-          7076,
-          7204
+          7091,
+          7219
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 243,
+        "lineno": 244,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100007949",
+          "id": "astnode100007946",
           "name": "petSystem.prototype.lowerVarCustomPrefix",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -1988,15 +1988,15 @@
       "comment": "/**\r\n     * 实体组中心点\r\n     * @param {string} _meta 过滤id\r\n     * @param {number} filter_distance 过滤距离\r\n     * @returns {object} 位置点(单位是地图单位而非像素)\r\n     */",
       "meta": {
         "range": [
-          8231,
-          8889
+          8246,
+          8904
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 279,
+        "lineno": 280,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100008128",
+          "id": "astnode100008125",
           "name": "petSystem.prototype.groupCenter",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2054,15 +2054,15 @@
       "comment": "/**\r\n     * Description\r\n     * @param {any} positions\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          8987,
-          9082
+          9002,
+          9097
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 302,
+        "lineno": 303,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100008235",
+          "id": "astnode100008232",
           "name": "petSystem.prototype.pointsCenter",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2101,15 +2101,15 @@
       "comment": "/**\r\n     * 显示宠物信息，通常为调试用\r\n     * @param {number} delay=0 延迟，无效果\r\n     */",
       "meta": {
         "range": [
-          16507,
-          17126
+          16585,
+          17204
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 534,
+        "lineno": 537,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100009295",
+          "id": "astnode100009299",
           "name": "petSystem.prototype.updatehoverShowPetDebug",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2147,15 +2147,15 @@
       "comment": "/**\r\n     * AI辅助类\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          24755,
-          24779
+          24833,
+          24857
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 773,
+        "lineno": 776,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100010295",
+          "id": "astnode100010299",
           "name": "ai_support",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -2173,15 +2173,15 @@
       "comment": "/**\r\n     * 设置一个警示器, <a href=\"ScriptableQueryObject.Alerter.html#setup\">具体实现</a>\r\n     * @param {any} ...args\r\n     * @returns {Alerter} 警示器\r\n     */",
       "meta": {
         "range": [
-          24941,
-          25084
+          25019,
+          25162
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 779,
+        "lineno": 782,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100010300",
+          "id": "astnode100010304",
           "name": "ai_support.prototype.aiAlert",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2224,15 +2224,15 @@
       "comment": "/**\r\n     * 判定警示器是否碰撞到某个目标\r\n     * @param {Alerter} alert 警示器\r\n     * @param {Game_Character|Prefab} poser 目标\r\n     * @param {boolean} autoCheckFix=true 自动检查\r\n     * @param {boolean} alwaysAlert=true 持续检查\r\n     * @returns {boolean} 碰撞结果\r\n     */",
       "meta": {
         "range": [
-          25341,
-          25664
+          25419,
+          25742
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 792,
+        "lineno": 795,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100010325",
+          "id": "astnode100010329",
           "name": "ai_support.prototype.alertCheck",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2310,15 +2310,15 @@
       "comment": "/**\r\n     * 跟随型显示对象\r\n     * @param {PIXI.Container} slot 显示对象\r\n     * @param {number} ox=0 偏移 \r\n     * @param {number} oy=0 偏移\r\n     * @param {Game_Battler} target=this._battler 目标\r\n     * @param {number} gz=2 层级 3为与人物同层\r\n     */",
       "meta": {
         "range": [
-          26402,
-          26722
+          26480,
+          26800
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 819,
+        "lineno": 822,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100010449",
+          "id": "astnode100010453",
           "name": "ai_support.prototype.followSlot",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2399,15 +2399,15 @@
       "comment": "/**\r\n     * 静止型显示对象\r\n     * @param {PIXI.Container} slot 显示对象\r\n     * @param {number} x=0 位置\r\n     * @param {number} y=0 位置\r\n     * @param {number} gz=2 层级 3为与人物同层\r\n     */",
       "meta": {
         "range": [
-          26906,
-          27200
+          26984,
+          27278
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 834,
+        "lineno": 837,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100010515",
+          "id": "astnode100010519",
           "name": "ai_support.prototype.staticSlot",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2478,15 +2478,15 @@
       "comment": "/**\r\n     * 警示器\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          28520,
-          28587
+          28598,
+          28665
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 891,
+        "lineno": 894,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100010762",
+          "id": "astnode100010766",
           "name": "Alerter",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -2504,15 +2504,15 @@
       "comment": "/**\r\n     * 设置一个警示器\r\n     * @param {number} size=600 大小/直径\r\n     * @param {number} sy=0.5 垂直缩放\r\n     * @param {number} lineWidth=5 线宽\r\n     * @param {number} lineDash=8 虚线间隔\r\n     * @param {boolean} fill=false 填充而非边缘\r\n     * @param {number} alpha=1 透明度\r\n     */",
       "meta": {
         "range": [
-          29358,
-          30108
+          29436,
+          30186
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 917,
+        "lineno": 920,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100010862",
+          "id": "astnode100010866",
           "name": "Alerter.prototype.setup",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2613,15 +2613,15 @@
       "comment": "/**\r\n     * 设置安全色\r\n     * @param {number} color=0x00ff00\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          31605,
-          31704
+          31683,
+          31782
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 982,
+        "lineno": 985,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011197",
+          "id": "astnode100011201",
           "name": "Alerter.prototype.setSafeColor",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2664,15 +2664,15 @@
       "comment": "/**\r\n     * 设置检查色\r\n     * @param {number} color=0xff0000\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          31806,
-          31907
+          31884,
+          31985
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 991,
+        "lineno": 994,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011215",
+          "id": "astnode100011219",
           "name": "Alerter.prototype.setAlertColor",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2715,15 +2715,15 @@
       "comment": "/**\r\n     * 设置当前色\r\n     * @example changeColor 0xffff00\r\n     * @param {number} color\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          32038,
-          32257
+          32116,
+          32335
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1001,
+        "lineno": 1004,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011233",
+          "id": "astnode100011237",
           "name": "Alerter.prototype.changeColor",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2770,15 +2770,15 @@
       "comment": "/**\r\n     * 设置大小\r\n     * @param {number} size\r\n     */",
       "meta": {
         "range": [
-          32580,
-          32675
+          32658,
+          32753
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1020,
+        "lineno": 1023,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011314",
+          "id": "astnode100011318",
           "name": "Alerter.prototype.changeSize",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2812,15 +2812,15 @@
       "comment": "/**\r\n     * 隐藏\r\n     */",
       "meta": {
         "range": [
-          32712,
-          32789
+          32790,
+          32867
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1027,
+        "lineno": 1030,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011334",
+          "id": "astnode100011338",
           "name": "Alerter.prototype.hide",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2841,15 +2841,15 @@
       "comment": "/**\r\n     * 显示\r\n     */",
       "meta": {
         "range": [
-          32826,
-          32902
+          32904,
+          32980
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1034,
+        "lineno": 1037,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011349",
+          "id": "astnode100011353",
           "name": "Alerter.prototype.show",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -2867,25 +2867,26 @@
       "scope": "instance"
     },
     {
-      "comment": "/**\r\n     * 获取点击到的实体\r\n     * @param {string} name=\"actor\" 实体组\r\n     * @param {boolean} bone=true 用龙骨判定而非整个边界\r\n     * @param {boolean} ignoreSelf=true 忽视自己的实体\r\n     * @returns {Game_Battler} 序列对象\r\n     */",
+      "comment": "/**\r\n     * 获取点击到的实体\r\n     * @param {string} name=\"actor\" 实体组\r\n     * @param {boolean} bone=true 用龙骨判定而非整个边界\r\n     * @param {boolean} ignoreSelf=true 忽视自己的实体\r\n     * @param {any} tag 单个标签过滤\r\n     * @returns {Game_Battler} 序列对象\r\n     */",
       "meta": {
         "range": [
-          33142,
-          34029
+          33252,
+          34208
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1046,
+        "lineno": 1050,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011364",
+          "id": "astnode100011368",
           "name": "ai_support.prototype.getPrefabTouch",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
           "paramnames": [
             "name",
             "bone",
-            "ignoreSelf"
+            "ignoreSelf",
+            "tag"
           ]
         },
         "vars": {
@@ -2925,6 +2926,15 @@
           "defaultvalue": true,
           "description": "忽视自己的实体",
           "name": "ignoreSelf"
+        },
+        {
+          "type": {
+            "names": [
+              "any"
+            ]
+          },
+          "description": "单个标签过滤",
+          "name": "tag"
         }
       ],
       "returns": [
@@ -2944,18 +2954,71 @@
       "scope": "instance"
     },
     {
-      "comment": "/**\r\n     * 上一次鼠标与这一次鼠标位置之间的相对位置或弧度值\r\n     * @param {boolean} rad=true 转为弧度 \r\n     * @returns {number|object} 弧度数值或位置对象(x,y)\r\n     */",
+      "comment": "/**\r\n     * 获取序列\r\n     * @param {Game_Battler|Game_Character} a 实体\r\n     * @returns {contexter} 序列\r\n     */",
       "meta": {
         "range": [
-          34174,
-          34588
+          34327,
+          34429
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1075,
+        "lineno": 1080,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011494",
+          "id": "astnode100011516",
+          "name": "ai_support.prototype.getQuery",
+          "type": "FunctionExpression",
+          "funcscope": "<anonymous>",
+          "paramnames": [
+            "a"
+          ]
+        },
+        "vars": {
+          "q": "ScriptableQueryObject.ai_support#getQuery~q"
+        }
+      },
+      "description": "获取序列",
+      "params": [
+        {
+          "type": {
+            "names": [
+              "Game_Battler",
+              "Game_Character"
+            ]
+          },
+          "description": "实体",
+          "name": "a"
+        }
+      ],
+      "returns": [
+        {
+          "type": {
+            "names": [
+              "contexter"
+            ]
+          },
+          "description": "序列"
+        }
+      ],
+      "name": "getQuery",
+      "longname": "ScriptableQueryObject.ai_support#getQuery",
+      "kind": "function",
+      "memberof": "ScriptableQueryObject.ai_support",
+      "scope": "instance"
+    },
+    {
+      "comment": "/**\r\n     * 上一次鼠标与这一次鼠标位置之间的相对位置或弧度值\r\n     * @param {boolean} rad=true 转为弧度 \r\n     * @returns {number|object} 弧度数值或位置对象(x,y)\r\n     */",
+      "meta": {
+        "range": [
+          34574,
+          34988
+        ],
+        "filename": "SCQprojectcore.js",
+        "lineno": 1089,
+        "columnno": 4,
+        "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
+        "code": {
+          "id": "astnode100011536",
           "name": "ai_support.prototype.tempVecTouch",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3005,15 +3068,15 @@
       "comment": "/**\r\n     * 椭圆碰撞判定\r\n     * @param {PIXI.Container} display 需要做此判定的显示对象\r\n     * @param {object} point 点\r\n     * @returns {boolean}\r\n     */",
       "meta": {
         "range": [
-          34807,
-          35151
+          35207,
+          35551
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1094,
+        "lineno": 1108,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011610",
+          "id": "astnode100011652",
           "name": "ai_support.prototype.ellipseContains",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3069,15 +3132,15 @@
       "comment": "/**\r\n     * 椭圆碰撞判定, 单位像素\r\n     * @param {number} width 宽度\r\n     * @param {number} height 高度\r\n     * @param {number} x 位置\r\n     * @param {number} y 位置\r\n     * @param {object} point 点\r\n     * @returns {boolean}\r\n     */",
       "meta": {
         "range": [
-          35381,
-          36219
+          35781,
+          36619
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1110,
+        "lineno": 1124,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011676",
+          "id": "astnode100011718",
           "name": "ai_support.prototype._ellipseContains",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3168,15 +3231,15 @@
       "comment": "/**\r\n     * 添加显示对象到地图\r\n     * @param {PIXI.Container} display 显示对象\r\n     * @param {number} z=3 层级 角色层级为3\r\n     */",
       "meta": {
         "range": [
-          36344,
-          36533
+          36744,
+          36933
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1136,
+        "lineno": 1150,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100011818",
+          "id": "astnode100011860",
           "name": "ai_support.prototype.add2TileMap",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3222,15 +3285,15 @@
       "comment": "/**\r\n     * 执行一个公共事件\r\n     * @param {number} id 公共事件id\r\n     */",
       "meta": {
         "range": [
-          39825,
-          40024
+          40225,
+          40424
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1226,
+        "lineno": 1240,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100012383",
+          "id": "astnode100012425",
           "name": "ai_support.prototype.cev",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3265,15 +3328,15 @@
       "comment": "/**\r\n     * 添加一个标签到<strong>地图对象(角色)</strong>\r\n     * @param {string} t 标签\r\n     */",
       "meta": {
         "range": [
-          40118,
-          40341
+          40518,
+          40741
         ],
         "filename": "SCQprojectcore.js",
-        "lineno": 1237,
+        "lineno": 1251,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100012416",
+          "id": "astnode100012458",
           "name": "ai_support.prototype.makeCtag",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3342,7 +3405,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019160",
+          "id": "astnode100019269",
           "name": "Server",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -3368,7 +3431,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019229",
+          "id": "astnode100019338",
           "name": "Server.prototype.get",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3421,7 +3484,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019287",
+          "id": "astnode100019396",
           "name": "Server.prototype.spread",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3510,7 +3573,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019414",
+          "id": "astnode100019523",
           "name": "Server.prototype.close",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3554,7 +3617,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019486",
+          "id": "astnode100019595",
           "name": "contexter",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -3580,7 +3643,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019649",
+          "id": "astnode100019758",
           "name": "contexter.prototype.createServer",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3633,7 +3696,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019675",
+          "id": "astnode100019784",
           "name": "contexter.prototype.getServer",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3696,7 +3759,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019701",
+          "id": "astnode100019810",
           "name": "contexter.prototype.connect",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3783,7 +3846,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019762",
+          "id": "astnode100019871",
           "name": "contexter.prototype.disconnect",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3822,7 +3885,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100019816",
+          "id": "astnode100019925",
           "name": "contexter.prototype.fetch",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3932,7 +3995,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100020330",
+          "id": "astnode100020439",
           "name": "contexter.prototype._execMeetConditions",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -3991,7 +4054,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100020449",
+          "id": "astnode100020558",
           "name": "contexter.prototype.sharelite",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4053,7 +4116,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100020625",
+          "id": "astnode100020734",
           "name": "contexter.prototype.pause",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4105,7 +4168,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100020651",
+          "id": "astnode100020760",
           "name": "contexter.prototype.hook",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4159,7 +4222,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100020914",
+          "id": "astnode100021023",
           "name": "contexter.prototype.eon",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4196,7 +4259,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100020932",
+          "id": "astnode100021041",
           "name": "contexter.prototype._eon",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4301,7 +4364,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021039",
+          "id": "astnode100021148",
           "name": "contexter.prototype.eoff",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4388,7 +4451,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021188",
+          "id": "astnode100021297",
           "name": "contexter.prototype.setCache",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4443,7 +4506,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021249",
+          "id": "astnode100021358",
           "name": "contexter.prototype.clearCache",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4475,7 +4538,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021312",
+          "id": "astnode100021421",
           "name": "contexter.prototype.getCache",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4540,7 +4603,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021352",
+          "id": "astnode100021461",
           "name": "contexter.prototype.resetQuery",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4595,7 +4658,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021415",
+          "id": "astnode100021524",
           "name": "contexter.prototype.hookoff",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4646,7 +4709,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021519",
+          "id": "astnode100021628",
           "name": "contexter.prototype.export",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4699,7 +4762,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021568",
+          "id": "astnode100021677",
           "name": "contexter.prototype.import",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4750,7 +4813,7 @@
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100021820",
+          "id": "astnode100021929",
           "name": "contexter.prototype.build",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4784,15 +4847,15 @@
       "comment": "/**\r\n     * 指令任意字符串解释 <strong>CORE</strong> <strong>核心方法</strong>\r\n     * @param {any} a\r\n     * @param {any} type='value'\r\n     * @param {any} ignoreSimple=false\r\n     * @returns {function|any}\r\n     */",
       "meta": {
         "range": [
-          31923,
-          34765
+          32472,
+          35314
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1028,
+        "lineno": 1043,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023128",
+          "id": "astnode100023333",
           "name": "contexter.prototype.warmArg",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4868,15 +4931,15 @@
       "comment": "/**\r\n     * js标准值类型或数组类型\r\n     * 参数长度等于1直接返回传入的参数 \r\n     * 参数长度大于1返回一个数组\r\n     * @returns {value|array}\r\n     */",
       "meta": {
         "range": [
-          35504,
-          35701
+          36053,
+          36250
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1131,
+        "lineno": 1146,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023664",
+          "id": "astnode100023869",
           "name": "contexter.prototype.value",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4907,15 +4970,15 @@
       "comment": "/**\r\n     * 复制某序列的某些缓存到另一个序列中\r\n     * @example copyCache2B ^$gamePlayer 技能序列 name1 name2 name3 ...\r\n     * @param {Game_Battler|contexter|Game_Character} a 源序列或序列实体\r\n     * @param {Game_Battler|contexter|Game_Character} b 目标序列或序列实体\r\n     * @param {Array<string>} ...caches 缓存名或直接缓存数据\r\n     * @returns {boolean}\r\n     */",
       "meta": {
         "range": [
-          36032,
-          36303
+          36581,
+          36852
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1146,
+        "lineno": 1161,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023694",
+          "id": "astnode100023899",
           "name": "contexter.prototype.copyCacheA2B",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -4987,15 +5050,15 @@
       "comment": "/**\r\n     * 线性映射\r\n     * @param {number} x 需要映射的值\r\n     * @param {number} a 原区间左端\r\n     * @param {number} b 原区间右端\r\n     * @param {number} c 现区间左端\r\n     * @param {number} d 现区间右端\r\n     * @returns {number} 映射后的值\r\n     */",
       "meta": {
         "range": [
-          36533,
-          36673
+          37082,
+          37222
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1164,
+        "lineno": 1179,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023751",
+          "id": "astnode100023956",
           "name": "contexter.prototype.linearValue",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5079,15 +5142,15 @@
       "comment": "/**\r\n     * js标准键值对\r\n     * @returns {object}\r\n     */",
       "meta": {
         "range": [
-          36739,
-          36961
+          37288,
+          37510
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1172,
+        "lineno": 1187,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023783",
+          "id": "astnode100023988",
           "name": "contexter.prototype.json",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5118,15 +5181,15 @@
       "comment": "/**\r\n     * js标准Map数据结构\r\n     * @returns {map}\r\n     */",
       "meta": {
         "range": [
-          37028,
-          37259
+          37577,
+          37808
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1184,
+        "lineno": 1199,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023827",
+          "id": "astnode100024032",
           "name": "contexter.prototype.map",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5157,15 +5220,15 @@
       "comment": "/**\r\n     * 随机数生成\r\n     * @param {number} min=0 下限\r\n     * @param {number} max=1 上限\r\n     * @param {number} floorType=0 取整类型 floor-向下 round-向上 ceil-四舍五入 0-无取整\r\n     * @param {number} weight 权重，TODO\r\n     * @returns {number}\r\n     */",
       "meta": {
         "range": [
-          37503,
-          38003
+          38052,
+          38552
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1200,
+        "lineno": 1215,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023873",
+          "id": "astnode100024078",
           "name": "contexter.prototype.random",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5241,15 +5304,15 @@
       "comment": "/**\r\n     * 获取对象.属性名 === value 对象.属性名\r\n     * @param {object} obj 对象\r\n     * @param {string} name 属性名\r\n     * @returns {undefined} 值\r\n     */",
       "meta": {
         "range": [
-          38156,
-          38239
+          38705,
+          38788
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1220,
+        "lineno": 1235,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023951",
+          "id": "astnode100024156",
           "name": "contexter.prototype.prop",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5300,15 +5363,15 @@
       "comment": "/**\r\n     * 自定义函数\r\n     * @deprecated\r\n     * @param {string} a 缓存的函数名或函数体\r\n     * @returns {undefined} \r\n     * 如果第一个参数是(a,b){...}这样的函数体则返回一个通过new Function生成的函数,\r\n     * 如果第一个参数是函数的名字，后续参数则是这个函数的参数，返回执行后的结果\r\n     */",
       "meta": {
         "range": [
-          38467,
-          38781
+          39016,
+          39330
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1231,
+        "lineno": 1246,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100023966",
+          "id": "astnode100024171",
           "name": "contexter.prototype.fn",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5353,15 +5416,15 @@
       "comment": "/**\r\n     * 预编译一个临时函数\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          38846,
-          38938
+          39395,
+          39487
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1245,
+        "lineno": 1260,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100024020",
+          "id": "astnode100024225",
           "name": "contexter.prototype.prefn",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5388,15 +5451,15 @@
       "comment": "/**\r\n     * 执行并返回一个任意函数或方法块\r\n     * @param {function} e 方法块\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          39828,
-          40121
+          40377,
+          40670
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1274,
+        "lineno": 1289,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100024118",
+          "id": "astnode100024323",
           "name": "contexter.prototype.eval",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5441,15 +5504,15 @@
       "comment": "/**\r\n     * 回收，真正销毁序列对象(准备进入GC, 任何地方都不应该再引用这个序列)\r\n     * @param {any} any 如为空，视为完全销毁当前序列\r\n     */",
       "meta": {
         "range": [
-          40559,
-          41511
+          41134,
+          42086
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1298,
+        "lineno": 1313,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100024228",
+          "id": "astnode100024433",
           "name": "contexter.prototype.gc",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5484,15 +5547,15 @@
       "comment": "/**\r\n     * 调试，打印\r\n     * @param {any} v\r\n     */",
       "meta": {
         "range": [
-          41781,
-          42150
+          42356,
+          42725
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1338,
+        "lineno": 1353,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100024431",
+          "id": "astnode100024636",
           "name": "contexter.prototype.log",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5523,15 +5586,15 @@
       "comment": "/**\r\n     * 技能对象\r\n     * 预缓存变量有\r\n     * $a 技能使用者\r\n     * $b 结算伤害时的当前目标(会动态变化)\r\n     * @memberof ScriptableQueryObject\r\n     * @extends contexter\r\n     * @class \r\n     */",
       "meta": {
         "range": [
-          43297,
-          43347
+          43872,
+          43922
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1391,
+        "lineno": 1406,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100024611",
+          "id": "astnode100024816",
           "name": "Skill",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -5552,15 +5615,15 @@
       "comment": "/**\r\n     * 开始销毁序列\r\n     * @param {boolean} reset 重置序列的索引(重头开始)\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          44782,
-          44871
+          45357,
+          45446
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1441,
+        "lineno": 1456,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100024841",
+          "id": "astnode100025046",
           "name": "Skill.prototype.destroy",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5600,15 +5663,15 @@
       "comment": "/**\r\n     * 开始伤害序列\r\n     * @param {boolean} reset 重置序列的索引(重头开始)\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          44978,
-          45065
+          45553,
+          45640
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1449,
+        "lineno": 1464,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100024858",
+          "id": "astnode100025063",
           "name": "Skill.prototype.damage",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5648,15 +5711,15 @@
       "comment": "/**\r\n     * 创建一个碰撞器\r\n     * @param {number} w 宽度\r\n     * @param {number} h 长度\r\n     * @param {number} x 水平坐标\r\n     * @param {number} y 垂直坐标\r\n     * @param {string} type 类型，默认矩形,rect\r\n     * @returns {object} 碰撞器\r\n     */",
       "meta": {
         "range": [
-          45417,
-          45963
+          45992,
+          46538
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1467,
+        "lineno": 1482,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100024889",
+          "id": "astnode100025094",
           "name": "Skill.prototype.collider",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5741,15 +5804,15 @@
       "comment": "/**\r\n     * 为碰撞器A应用一个力\r\n     * @param {object} collider 碰撞器A\r\n     * @param {number} value 力度\r\n     * @param {number} radian 弧度\r\n     * @param {boolean} rotate=true 是否根据弧度旋转\r\n     * @param {string} type 类型，默认推力, push\r\n     * @returns {object} 碰撞器A\r\n     */",
       "meta": {
         "range": [
-          46385,
-          46750
+          46960,
+          47325
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1497,
+        "lineno": 1512,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025033",
+          "id": "astnode100025238",
           "name": "Skill.prototype.force",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5835,15 +5898,15 @@
       "comment": "/**\r\n     * @param {any} collider\r\n     * @param {any} radian\r\n     * @param {any} type\r\n     * @returns {undefined}\r\n     */",
       "meta": {
         "range": [
-          47196,
-          47264
+          47771,
+          47839
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1524,
+        "lineno": 1539,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025091",
+          "id": "astnode100025296",
           "name": "Skill.prototype.tween",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5899,15 +5962,15 @@
       "comment": "/** 技能位图容器\r\n     * @returns {undefined}\r\n     */",
       "meta": {
         "range": [
-          47324,
-          47765
+          47899,
+          48340
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1530,
+        "lineno": 1545,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025103",
+          "id": "astnode100025308",
           "name": "Skill._createSkillOjbectMap",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -5940,15 +6003,15 @@
       "comment": "/**\r\n     * 生成一个精灵，如技能子弹的精灵\r\n     * @param {object} collider 碰撞器\r\n     * @param {string} name 精灵文件名\r\n     * @returns {Sprite} 精灵\r\n     */",
       "meta": {
         "range": [
-          47914,
-          48863
+          48489,
+          49438
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1545,
+        "lineno": 1560,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025165",
+          "id": "astnode100025370",
           "name": "Skill.prototype.sprite",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6015,15 +6078,15 @@
       "comment": "/**\r\n     * 将技能精灵添加到场景中\r\n     * @param {Sprite} s 精灵\r\n     */",
       "meta": {
         "range": [
-          48936,
-          49330
+          49511,
+          49905
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1571,
+        "lineno": 1586,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025316",
+          "id": "astnode100025521",
           "name": "Skill.prototype.addSkill2scene",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6059,15 +6122,15 @@
       "comment": "/**\r\n     * 同步精灵和碰撞器\r\n     * @param {Sprite} sprite 精灵\r\n     * @param {string} type 类型，pos-位置\r\n     * @param {boolean} rotate 是否同步旋转\r\n     * @param {object=} collider 碰撞器\r\n     * @returns {undefined}\r\n     */",
       "meta": {
         "range": [
-          49877,
-          50412
+          50452,
+          50987
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1601,
+        "lineno": 1616,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025426",
+          "id": "astnode100025631",
           "name": "Skill.prototype.sync",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6144,15 +6207,15 @@
       "comment": "/**\r\n     * 设置碰撞器A的位置\r\n     * @param {object} collider 碰撞器A\r\n     * @param {number} x 水平坐标\r\n     * @param {number} y 垂直坐标\r\n     * @returns {undefined}\r\n     */",
       "meta": {
         "range": [
-          50585,
-          50695
+          51160,
+          51270
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1622,
+        "lineno": 1637,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025499",
+          "id": "astnode100025704",
           "name": "Skill.prototype.pos",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6212,15 +6275,15 @@
       "comment": "/**\r\n     * 设置碰撞体速度\r\n     * @param {object} collider 碰撞体\r\n     * @param {number} v=0 速度值\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          50827,
-          50930
+          51402,
+          51505
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1631,
+        "lineno": 1646,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025524",
+          "id": "astnode100025729",
           "name": "Skill.prototype.speed",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6271,15 +6334,15 @@
       "comment": "/**\r\n     * 设置碰撞体加速度\r\n     * @param {any} collider 碰撞体\r\n     * @param {any} x=0 水平加速度值\r\n     * @param {any} y=0 垂直加速度值\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          51092,
-          51215
+          51667,
+          51790
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1641,
+        "lineno": 1656,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025546",
+          "id": "astnode100025751",
           "name": "Skill.prototype.velocity",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6341,15 +6404,15 @@
       "comment": "/**\r\n     * 把碰撞器A置于碰撞器B前\r\n     * @param {object} collider 碰撞器A\r\n     * @param {object} collider1 碰撞器B\r\n     * @param {number} radian 弧度\r\n     * @param {boolean} rotate 考虑弧度带来的旋转\r\n     * @param {array} offset 偏移\r\n     * @returns {undefined}\r\n     */",
       "meta": {
         "range": [
-          51477,
-          52152
+          52052,
+          52727
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1654,
+        "lineno": 1669,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025575",
+          "id": "astnode100025780",
           "name": "Skill.prototype.front",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6439,15 +6502,15 @@
       "comment": "/**\r\n     * 碰撞体是否碰撞到地形\r\n     * @param {object} collider 碰撞器\r\n     * @returns {boolean|array} 碰撞结果或地形碰撞器\r\n     */",
       "meta": {
         "range": [
-          52280,
-          52746
+          52855,
+          53321
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1676,
+        "lineno": 1691,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025692",
+          "id": "astnode100025897",
           "name": "Skill.prototype.bangTerrain",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6494,15 +6557,15 @@
       "comment": "/**\r\n     * 获取碰撞体碰撞到的所有目标\r\n     * @param {object} collider 碰撞体\r\n     * @param {string} team 地图碰撞体组名，如敌人碰撞体组，队伍碰撞体组\r\n     * @param {boolean} nomulti=true 忽略二次伤害\r\n     * @param {boolean} noself=true 忽略施法者\r\n     * @returns {Array} 目标\r\n     */",
       "meta": {
         "range": [
-          52997,
-          54268
+          53572,
+          54843
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1696,
+        "lineno": 1711,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025766",
+          "id": "astnode100025971",
           "name": "Skill.prototype.getTargets",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6586,15 +6649,15 @@
       "comment": "/**\r\n     * @param {Map|Array} group 源碰撞体数组A\r\n     * @param {Array} bodies 目标碰撞体数组B\r\n     * @param {Map} contexts 建立碰撞数据与碰撞体的映射\r\n     * @returns {undefined}\r\n     */",
       "meta": {
         "range": [
-          54445,
-          54938
+          55020,
+          55513
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1738,
+        "lineno": 1753,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100025945",
+          "id": "astnode100026150",
           "name": "Skill.prototype._updateColliderFilterGroup",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6657,15 +6720,15 @@
       "comment": "/**\r\n     * <非通用>\r\n     * 获取角色的状态机\r\n     * @param {Game_Battler|Game_Character|Prefab} a 角色\r\n     * @returns {UtilsExtend.fsm} 状态机\r\n     */",
       "meta": {
         "range": [
-          55089,
-          55197
+          55664,
+          55772
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1755,
+        "lineno": 1770,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100026000",
+          "id": "astnode100026205",
           "name": "Skill.prototype.fsm",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6711,15 +6774,15 @@
       "comment": "/**\r\n     * <非通用>\r\n     * 技能进入冷却\r\n     * @param {number} time 冷却时间\r\n     * @returns {undefined} \r\n     */",
       "meta": {
         "range": [
-          56477,
-          56722
+          57052,
+          57297
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1798,
+        "lineno": 1813,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100026197",
+          "id": "astnode100026402",
           "name": "Skill.prototype.cd",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6762,15 +6825,15 @@
       "comment": "/**\r\n     * 屏幕抖动\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          59778,
-          59869
+          60353,
+          60444
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1899,
+        "lineno": 1914,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100026582",
+          "id": "astnode100026787",
           "name": "Skill.prototype.shake",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6797,15 +6860,15 @@
       "comment": "/**\r\n     * 使用技能\r\n     * @param {number} id 技能ID\r\n     * @param {boolean} destroy 销毁当前技能\r\n     * @returns {Skill|undefined} 技能\r\n     */",
       "meta": {
         "range": [
-          60022,
-          60140
+          60597,
+          60715
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1909,
+        "lineno": 1924,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100026598",
+          "id": "astnode100026803",
           "name": "Skill.prototype.useskill",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6857,15 +6920,15 @@
       "comment": "/**\r\n     * <非通用>\r\n     * 为目标们应用技能效果\r\n     * @param {array} targets 目标\r\n     * @returns {object} 技能效果(Game_Action)\r\n     */",
       "meta": {
         "range": [
-          60275,
-          60847
+          60850,
+          61422
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1919,
+        "lineno": 1934,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100026616",
+          "id": "astnode100026821",
           "name": "Skill.prototype.action",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -6912,15 +6975,15 @@
       "comment": "/**\r\n     * 状态对象\r\n     * 预缓存变量有\r\n     * $a 被施加状态者(状态持有者)\r\n     * $b 施加状态者\r\n     * $action 施加状态的数据集(如$action.query通常是一个技能序列，$a受到这个技能的影响从而进入了这个状态)\r\n     * $count 状态的个数，这个通常不用管，也是手动增加的而非自动增加的，更类似与手动记录这个状态被施加了多少次\r\n     * @memberof ScriptableQueryObject\r\n     * @extends contexter\r\n     * @class \r\n     */",
       "meta": {
         "range": [
-          61163,
-          61213
+          61738,
+          61788
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 1948,
+        "lineno": 1963,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100026705",
+          "id": "astnode100026910",
           "name": "State",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -6941,15 +7004,15 @@
       "comment": "/**\r\n     * Battler 战斗者序列\r\n     * 预缓存变量有\r\n     * $a 自身，和技能使用者$a，状态持有者$a一致\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          65816,
-          65868
+          66391,
+          66443
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2063,
+        "lineno": 2078,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100027441",
+          "id": "astnode100027646",
           "name": "Battler",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -6967,15 +7030,15 @@
       "comment": "/**\r\n     * 添加一个原生没有的自定义特性\r\n     * @param {string} name 特性名, 唯一\r\n     * @param {function} formula 含返回值的方法块或函数表达式\r\n     */",
       "meta": {
         "range": [
-          66959,
-          67254
+          67534,
+          67829
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2095,
+        "lineno": 2110,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100027607",
+          "id": "astnode100027812",
           "name": "Battler.prototype.trait",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7020,15 +7083,15 @@
       "comment": "/**\r\n     * 重载一个已有的特性，如攻击力，暴击率等 模板{$0 ...} $0为既有的值的引用\r\n     * @param {string} name 特性名, 唯一\r\n     * @param {function} caler 含返回值的方法块或函数表达式\r\n     * @param {any} type='*' 弃用\r\n     */",
       "meta": {
         "range": [
-          67445,
-          67733
+          68020,
+          68308
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2110,
+        "lineno": 2125,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100027648",
+          "id": "astnode100027853",
           "name": "Battler.prototype.param",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7084,15 +7147,15 @@
       "comment": "/**\r\n     * Game_Action拓展\r\n     * \r\n     */",
       "meta": {
         "range": [
-          70336,
-          70408
+          70911,
+          70983
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2193,
+        "lineno": 2208,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100028044",
+          "id": "astnode100028249",
           "name": "Game_ActionAdvance",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -7110,15 +7173,15 @@
       "comment": "/**\r\n     * 等待被应用伤害或效果的目标列表\r\n     * @param {any} target\r\n     * @param {any} data\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          71153,
-          71929
+          71728,
+          72504
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2216,
+        "lineno": 2231,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100028151",
+          "id": "astnode100028356",
           "name": "Game_ActionAdvance.prototype.beforeApply",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7177,15 +7240,15 @@
       "comment": "/**\r\n     * MZARPG专属\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          81263,
-          81284
+          81838,
+          81859
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2493,
+        "lineno": 2508,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100029720",
+          "id": "astnode100029925",
           "name": "mzarpg",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -7203,15 +7266,15 @@
       "comment": "/**\r\n     * 连击\r\n     * @param {number} id 技能id\r\n     * @param {string} key 按键，判定为按下判定\r\n     * @returns {Skill|undefined} 使用后技能\r\n     */",
       "meta": {
         "range": [
-          81489,
-          81795
+          82064,
+          82370
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2503,
+        "lineno": 2518,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100029738",
+          "id": "astnode100029943",
           "name": "mzarpg.prototype.comboAdvance",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7267,15 +7330,15 @@
       "comment": "/**\r\n     * 从角色所拥有的状态获取所需的\r\n     * <strong><a href=\"./ScriptableQueryObject.contexter.html#sharelite\">已被分享的</a></strong>\r\n     * 函数来进行加法/乘法/叠加计算\r\n     * @param {string} name 引用名\r\n     * @param {(\"caler\"|\"multi\"|\"value\")} type='caler' 计算方式 加法，乘法，叠加\r\n     * @param {Game_Battler} target=this._battler 角色\r\n     * @returns {any} 任意值\r\n     */",
       "meta": {
         "range": [
-          82144,
-          82540
+          82719,
+          83115
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2521,
+        "lineno": 2536,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100029785",
+          "id": "astnode100029990",
           "name": "mzarpg.prototype.collect",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7346,15 +7409,15 @@
       "comment": "/**\r\n     * 获取A与B的距离\r\n     * @param {any} a A\r\n     * @param {any} b B\r\n     * @returns {any} A与B的距离\r\n     */",
       "meta": {
         "range": [
-          84213,
-          84795
+          84788,
+          85370
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2585,
+        "lineno": 2600,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100030091",
+          "id": "astnode100030296",
           "name": "mzarpg.prototype.distance",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7412,15 +7475,15 @@
       "comment": "/**\r\n     * 使用一个技能并自动朝向目标\r\n     * @param {any} id 技能ID\r\n     * @param {any} a 面向目标\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          85431,
-          85902
+          86006,
+          86477
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2615,
+        "lineno": 2630,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100030336",
+          "id": "astnode100030541",
           "name": "mzarpg.prototype.useSkill",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7475,15 +7538,15 @@
       "comment": "/**\r\n     * 能否使用技能数组\r\n     * @example #canUseSkill:can 1 2 3 4\r\n     * @returns {any} \r\n     */",
       "meta": {
         "range": [
-          86009,
-          86304
+          86584,
+          86879
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2634,
+        "lineno": 2649,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100030408",
+          "id": "astnode100030613",
           "name": "mzarpg.prototype.canUseSkill",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7518,15 +7581,15 @@
       "comment": "/**\r\n     * 移动类型拓展\r\n     * @param {Game_Character|Game_Battler|object} tpos 目标\r\n     * @param {Game_Character|Game_Battler|object} pos 当前坐标\r\n     * @param {number} w 修正宽度(通常和角色图像一致)<strong>务必注意单位问题，比如如果是角色和角色之间的修正应为格子，如果是碰撞器则应为像素</strong>\r\n     * @param {number} h 修正高度(通常和角色图像一致)<strong>务必注意单位问题，比如如果是角色和角色之间的修正应为格子，如果是碰撞器则应为像素</strong>\r\n     * @param {string} type='w' 水平类型(通常为2D横版游戏)\r\n     * @returns {number} 弧度值\r\n     */",
       "meta": {
         "range": [
-          87112,
-          87984
+          87687,
+          88559
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2665,
+        "lineno": 2680,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100030510",
+          "id": "astnode100030715",
           "name": "mzarpg.prototype.getMoveRadWithAdvancedMode",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7621,15 +7684,15 @@
       "comment": "/**\r\n     * 移动\r\n     * close 接近目标\r\n     * away 远离目标\r\n     * random 随机\r\n     * @param {string} type='close' 移动类型\r\n     * @param {Game_Battler} b 目标\r\n     * @param {Game_Battler} a=this._battler 移动者\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          88904,
-          90934
+          89479,
+          91509
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2722,
+        "lineno": 2737,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100030806",
+          "id": "astnode100031011",
           "name": "mzarpg.prototype.move",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7702,15 +7765,15 @@
       "comment": "/**\r\n     * <非通用>\r\n     * 让使用者的状态机从施法状态中解放出来\r\n     * @returns {undefined} \r\n     */",
       "meta": {
         "range": [
-          91029,
-          91304
+          91604,
+          91879
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2779,
+        "lineno": 2794,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031126",
+          "id": "astnode100031331",
           "name": "mzarpg.prototype.free",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7743,15 +7806,15 @@
       "comment": "/**\r\n     * 移除碰撞器\r\n     * @example removeBody $m $u\r\n     * @param {arguments} ...bs 碰撞器a, b, c ...\r\n     */",
       "meta": {
         "range": [
-          91430,
-          91578
+          92005,
+          92153
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2792,
+        "lineno": 2807,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031171",
+          "id": "astnode100031376",
           "name": "mzarpg.prototype.removeBody",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7788,15 +7851,15 @@
       "comment": "/**\r\n     * 锁帧(全局!)\r\n     * @param {number} target=60 目标帧率\r\n     */",
       "meta": {
         "range": [
-          91657,
-          91913
+          92232,
+          92488
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2801,
+        "lineno": 2816,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031198",
+          "id": "astnode100031403",
           "name": "mzarpg.prototype.lockFPS",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7828,15 +7891,15 @@
       "comment": "/**\r\n     * <非通用>\r\n     * 获取某个角色的战斗判定碰撞器\r\n     * @param {Game_Battler|Game_Character|Prefab} a 角色\r\n     * @returns {object} 战斗碰撞器\r\n     */",
       "meta": {
         "range": [
-          92583,
-          92731
+          93158,
+          93306
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2830,
+        "lineno": 2845,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031301",
+          "id": "astnode100031506",
           "name": "mzarpg.prototype.battleCollider",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7882,15 +7945,15 @@
       "comment": "/**\r\n     * <非通用>\r\n     * 获取某个角色的移动碰撞器\r\n     * @param {Game_Battler|Game_Character|Prefab} a 角色\r\n     * @returns {object} 移动碰撞器\r\n     */",
       "meta": {
         "range": [
-          92879,
-          93019
+          93454,
+          93594
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2840,
+        "lineno": 2855,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031325",
+          "id": "astnode100031530",
           "name": "mzarpg.prototype.matter",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7936,15 +7999,15 @@
       "comment": "/**\r\n     * 触发“水克火”的效果降低敌人速度时，该次攻击额外造成每层5%的伤害的前置处理\r\n     * @param {any} t\r\n     * @param {any} elcount\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          93992,
-          94168
+          94567,
+          94743
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2875,
+        "lineno": 2890,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031477",
+          "id": "astnode100031682",
           "name": "mzarpg.prototype.saveElCount",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -7996,15 +8059,15 @@
       "comment": "/**\r\n     * 延迟隐藏血条\r\n     * @param {number} v=60 延迟时间 单位帧\r\n     */",
       "meta": {
         "range": [
-          94656,
-          94864
+          95231,
+          95439
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2897,
+        "lineno": 2912,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031588",
+          "id": "astnode100031793",
           "name": "mzarpg.prototype.hphidden",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8040,15 +8103,15 @@
       "comment": "/**\r\n     * 触发“水克火”的效果降低敌人速度时，该次攻击额外造成每层5%的伤害的后置处理\r\n     * @param {any} t\r\n     * @param {any} base=0.05\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          95012,
-          95244
+          95587,
+          95819
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2909,
+        "lineno": 2924,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031620",
+          "id": "astnode100031825",
           "name": "mzarpg.prototype.handled41",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8101,15 +8164,15 @@
       "comment": "/** 掉落显示对象容器\r\n     * @returns {undefined}\r\n     */",
       "meta": {
         "range": [
-          95449,
-          95874
+          96024,
+          96449
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 2921,
+        "lineno": 2936,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100031695",
+          "id": "astnode100031900",
           "name": "Sprite_Loot._createMap",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8142,15 +8205,15 @@
       "comment": "/**\r\n     * \r\n     * 掉落注册 使用..将多个掉落物品同时注册以降低消耗 \r\n     * <a href=\"#_loot\">->具体实现</a> \r\n     * @example\r\n     * #loot:drops\r\n       i 7 5 10 $a.ltr\r\n       .. g 0 20 100 $a.ltrg 6 10\r\n     * @returns {array} 掉落列表\r\n     */",
       "meta": {
         "range": [
-          98994,
-          99368
+          99644,
+          100018
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3021,
+        "lineno": 3039,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100032265",
+          "id": "astnode100032484",
           "name": "mzarpg.prototype.loot",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8186,15 +8249,15 @@
       "comment": "/**\r\n     * 开始掉落\r\n     * @param {array} list 掉落列表\r\n     * @param {Game_Character|Game_Battler|Prefab} target 跟踪目标\r\n     * @param {number} rx=6 散落水平偏移范围\r\n     * @param {number} ry=0.5 散落垂直偏移范围\r\n     */",
       "meta": {
         "range": [
-          99580,
-          99895
+          100230,
+          100545
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3040,
+        "lineno": 3058,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100032318",
+          "id": "astnode100032537",
           "name": "mzarpg.prototype.lootStart",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8263,15 +8326,15 @@
       "comment": "/**\r\n     * 单组掉落注册\r\n     * @param {string} type w-武器 i-物品 a-防具 g-金币\r\n     * @param {number} id id\r\n     * @param {number} min=0 最少掉落\r\n     * @param {number} max=1 最多掉落\r\n     * @param {number} w1=0.05 掉落阈值，超过这个值则无掉落(不会进行掉落注册)\r\n     * @param {number} iconIndex=0 图标索引覆盖，为0则按照数据库图标索引处理\r\n     * @param {number} part=1 平均多少个生成一个掉落实体，如将1000个金币处理为10个掉落实体\r\n     * @param {number} lifetime=60 掉落曲线的生命周期\r\n     * @param {number} easing=\"Cubic\" 掉落曲线 {@link https://cdnjs.cloudflare.com/ajax/libs/tween.js/20.0.0/tween.umd.js}\r\n     * @returns {array} 单组掉落信息\r\n     */",
       "meta": {
         "range": [
-          101404,
-          102186
+          102593,
+          103494
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3085,
+        "lineno": 3116,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100032530",
+          "id": "astnode100032822",
           "name": "mzarpg.prototype._loot",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8410,15 +8473,15 @@
       "comment": "/**\r\n     * Qsprite角色播放Qsprite动作\r\n     * @param {string} name 动作名\r\n     * @param {boolean} loop 循环\r\n     * @param {Game_Character|Game_Battler} chara 角色\r\n     * @returns {undefined}\r\n     */",
       "meta": {
         "range": [
-          102905,
-          103383
+          104213,
+          104691
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3130,
+        "lineno": 3164,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100032757",
+          "id": "astnode100033070",
           "name": "mzarpg.prototype.pose",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8482,15 +8545,15 @@
       "comment": "/**\r\n     * 当前动作名\r\n     * @param {Game_Battler|Game_Character} a=this._battler\r\n     * @returns {string} 动作名\r\n     */",
       "meta": {
         "range": [
-          103951,
-          104153
+          105259,
+          105461
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3159,
+        "lineno": 3193,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100032889",
+          "id": "astnode100033202",
           "name": "mzarpg.prototype.getPose",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8535,15 +8598,15 @@
       "comment": "/**\r\n     * 使用物品(类型仅限于物品)\r\n     * @param {number} id 物品id\r\n     * @param {Game_Character|Game_Battler} a=this._battler 角色\r\n     * @returns {object} 成功使用的物品\r\n     */",
       "meta": {
         "range": [
-          105755,
-          106012
+          107063,
+          107320
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3210,
+        "lineno": 3244,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100033167",
+          "id": "astnode100033480",
           "name": "mzarpg.prototype.useItem",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8600,15 +8663,15 @@
       "comment": "/**\r\n     * 临时左下角窗口信息\r\n     * @param {string} str 信息\r\n     */",
       "meta": {
         "range": [
-          107152,
-          107238
+          108460,
+          108546
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3250,
+        "lineno": 3284,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100033387",
+          "id": "astnode100033700",
           "name": "mzarpg.prototype.windowmes",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8639,15 +8702,15 @@
       "comment": "/**\r\n     * 实体生成\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          109615,
-          109640
+          110923,
+          110948
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3319,
+        "lineno": 3353,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100033738",
+          "id": "astnode100034051",
           "name": "autoPrefab",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -8665,15 +8728,15 @@
       "comment": "/**\r\n     * <a href=\"#_createPrefab\">具体实现</a>\r\n     * 用 .. 分隔多个参数列表\r\n     * @param {any} id\r\n     * @param {any} type\r\n     * @param {any} count\r\n     * @returns {array} 实体列表\r\n     */",
       "meta": {
         "range": [
-          109875,
-          110212
+          111183,
+          111520
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3330,
+        "lineno": 3364,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100033750",
+          "id": "astnode100034063",
           "name": "autoPrefab.prototype.createPrefab",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8736,15 +8799,15 @@
       "comment": "/**\r\n     * 生成实体，<strong>实体在生成后会自动执行spawn序列(如果存在的话)</strong>\r\n     * <strong>如果id直接为battler即已有的实体数据</strong>，转到<a href=\"#_createPrefabByBattler\">具体实现</a>\r\n     * @param {number} id 数据库ID \r\n     * @param {string} type=\"enemy\" 类别, enemy敌人, actor玩家队伍\r\n     * @param {number} x=0 位置\r\n     * @param {number} y=0 位置\r\n     * @param {number} count=1 数量\r\n     * @param {string} name Qsprite名\r\n     * @returns {array} 实体数组\r\n     */",
       "meta": {
         "range": [
-          110645,
-          111450
+          111953,
+          112758
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3351,
+        "lineno": 3385,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100033806",
+          "id": "astnode100034119",
           "name": "autoPrefab.prototype._createPrefab",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8849,15 +8912,15 @@
       "comment": "/**\r\n     * 从已有的battler生成实体，<strong>实体在生成后会自动执行spawn序列(如果存在的话)</strong>\r\n     * @param {Game_Battler} b 实体数据\r\n     * @param {number} x=0 位置\r\n     * @param {number} y=0 位置\r\n     * @param {number} count=1 数量\r\n     * @param {string} name Qsprite名\r\n     * @returns {array} 实体数组\r\n     */",
       "meta": {
         "range": [
-          111744,
-          112482
+          113052,
+          113790
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3380,
+        "lineno": 3414,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100033926",
+          "id": "astnode100034239",
           "name": "autoPrefab.prototype._createPrefabByBattler",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -8952,15 +9015,15 @@
       "comment": "/**\r\n     * 添加实体到地图，通常为自动生成的预制体而非事件\r\n     * @param {string} name Qsprite名\r\n     * @param {Game_Battler | Game_Character} a=this._battler 对应的序列实体(或称角色)\r\n     * @param {number} x=undefined 位置\r\n     * @param {number} y=undefined 位置\r\n     */",
       "meta": {
         "range": [
-          112737,
-          113238
+          114045,
+          114546
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3407,
+        "lineno": 3441,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034044",
+          "id": "astnode100034357",
           "name": "autoPrefab.prototype.add2Map",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9030,15 +9093,15 @@
       "comment": "/**\r\n     * 屏幕点击位置到地图位置\r\n     * @returns {object} 包含x, y坐标的对象\r\n     */",
       "meta": {
         "range": [
-          113320,
-          113587
+          114628,
+          114895
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3422,
+        "lineno": 3456,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034134",
+          "id": "astnode100034447",
           "name": "autoPrefab.prototype.touch2Map",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9073,15 +9136,15 @@
       "comment": "/**\r\n     * 鼠标位置到角色距离\r\n     * @param {Game_Battler|Game_Character|Prefab} a=this._battler 角色\r\n     * @returns {number} 距离, 单位像素\r\n     */",
       "meta": {
         "range": [
-          113937,
-          114293
+          115245,
+          115601
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3441,
+        "lineno": 3475,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034228",
+          "id": "astnode100034541",
           "name": "autoPrefab.prototype.touch2Char",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9133,15 +9196,15 @@
       "comment": "/**\r\n     * 实体地图位置\r\n     * @param {Game_Battler|Game_Character} a=this._battler 实体\r\n     * @param {number} scale=1 缩放\r\n     * @returns {object} 包含水平坐标x和垂直坐标y的对象\r\n     */",
       "meta": {
         "range": [
-          114474,
-          114746
+          115782,
+          116054
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3457,
+        "lineno": 3491,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034300",
+          "id": "astnode100034613",
           "name": "autoPrefab.prototype.mapObjectPos",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9200,15 +9263,15 @@
       "comment": "/**\r\n     * arpg功能函数集\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          114906,
-          114925
+          116214,
+          116233
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3473,
+        "lineno": 3507,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034359",
+          "id": "astnode100034672",
           "name": "arpg",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -9226,15 +9289,15 @@
       "comment": "/**\r\n     * 权重计算\r\n     * @param {array|map} list 输入，数组或任意可迭代(forEach)对象\r\n     * @param {object} info <a href=\"#weightRule\">权重规则</a>\r\n     * @param {number} count=1 输出，排序后且裁切后的数组/列表，如为1，输出得分最高的那个\r\n     * @param {boolean} reverse=false 反向排序\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          115208,
-          116405
+          116516,
+          117713
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3482,
+        "lineno": 3516,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034364",
+          "id": "astnode100034677",
           "name": "arpg.prototype.weight",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9313,15 +9376,15 @@
       "comment": "/**\r\n     * <a href=\"#_weightRule\">具体实现</a>\r\n     * 多个权重规则\r\n     * @returns {object} 权重规则\r\n     */",
       "meta": {
         "range": [
-          116517,
-          116882
+          117825,
+          118190
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3523,
+        "lineno": 3557,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034556",
+          "id": "astnode100034869",
           "name": "arpg.prototype.weightRule",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9354,15 +9417,15 @@
       "comment": "/**\r\n     * 单个权重规则\r\n     * @param {string} props 属性名如atk，允许访问子属性如b.a.atk\r\n     * @param {number} score=10 得分\r\n     * @param {number} _default=0 默认值\r\n     * @returns {object} 权重规则\r\n     */",
       "meta": {
         "range": [
-          117087,
-          117348
+          118395,
+          118656
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3543,
+        "lineno": 3577,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034615",
+          "id": "astnode100034928",
           "name": "arpg.prototype._weightRule",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9431,15 +9494,15 @@
       "comment": "/**\r\n     * 冻结某个角色的某个技能, 注意一个技能的冻结可以有多个来源\r\n     * @param {number} id=this.source.id 技能id\r\n     * @param {any} source=this 来源\r\n     * @param {any} a=this._battler 角色\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          117843,
-          118070
+          119151,
+          119378
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3567,
+        "lineno": 3601,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034707",
+          "id": "astnode100035020",
           "name": "arpg.prototype.freeze",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9505,15 +9568,15 @@
       "comment": "/**\r\n     * 解冻某个角色受到冻结的某个技能的某个来源\r\n     * @param {number} id=this.source.id 技能id\r\n     * @param {any} source=this 来源\r\n     * @param {any} a=this._battler 角色\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          118269,
-          118500
+          119577,
+          119808
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3579,
+        "lineno": 3613,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034751",
+          "id": "astnode100035064",
           "name": "arpg.prototype.unfreeze",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9579,15 +9642,15 @@
       "comment": "/**\r\n     * 实体分组\r\n     * @param {string} name 组名\r\n     * @param {Game_Battler|Prefab|Game_Character} a=this._battler 实体(如序列的$a就是一个实体)\r\n     */",
       "meta": {
         "range": [
-          118654,
-          118792
+          119962,
+          120100
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3589,
+        "lineno": 3623,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034795",
+          "id": "astnode100035108",
           "name": "arpg.prototype.prefabGroup",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9631,15 +9694,15 @@
       "comment": "/**\r\n     * 实体组的当前队员数量\r\n     * @param {string} type 组名\r\n     * @returns {number} 数量\r\n     */",
       "meta": {
         "range": [
-          118896,
-          119052
+          120204,
+          120360
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3598,
+        "lineno": 3632,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034824",
+          "id": "astnode100035137",
           "name": "arpg.prototype.prefabGroupsCount",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9683,15 +9746,15 @@
       "comment": "/**\r\n     * 碰撞体是否发生碰撞\r\n     * @example collider $m $skillc1 $skillc2 ...\r\n     * @param {object} c 碰撞体c\r\n     * @param {object} c1 单个碰撞体或多个碰撞体\r\n     * @returns {boolean}\r\n     */",
       "meta": {
         "range": [
-          119242,
-          119401
+          120550,
+          120709
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3610,
+        "lineno": 3644,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034851",
+          "id": "astnode100035164",
           "name": "arpg.prototype.collide",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9747,15 +9810,15 @@
       "comment": "/**\r\n     * 清除所有技能锁定\r\n     * @returns {boolean}\r\n     */",
       "meta": {
         "range": [
-          119469,
-          119897
+          120777,
+          121205
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3618,
+        "lineno": 3652,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034882",
+          "id": "astnode100035195",
           "name": "arpg.prototype.clearFreezes",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9790,15 +9853,15 @@
       "comment": "/**\r\n     *   -1/2             (-1/2)+(1/2)\r\n     *     |                    |\r\n     * 1 —— —— 0    1+(1/2)   —— ——   0+(1/2)\r\n     *     |                    |\r\n     *    1/2              (1/2)+(1/2)\r\n     */",
       "meta": {
         "range": [
-          120118,
-          120133
+          121426,
+          121441
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3637,
+        "lineno": 3671,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100034963",
+          "id": "astnode100035276",
           "name": "arpg.const",
           "type": "ObjectExpression",
           "funcscope": "<anonymous>",
@@ -9817,15 +9880,15 @@
       "comment": "/**\r\n     * 对象a和b之间的弧度\r\n     * @param {object} a\r\n     * @param {object} b\r\n     * @returns {number} 弧度\r\n     */",
       "meta": {
         "range": [
-          120760,
-          121226
+          122068,
+          122534
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3653,
+        "lineno": 3687,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035081",
+          "id": "astnode100035394",
           "name": "arpg.prototype.radian2",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9883,15 +9946,15 @@
       "comment": "/**\r\n     * 获取角色方向\r\n     * @param {Game_Character|Game_Battler|Prefab} c 角色\r\n     * @returns {number} 角色的方向\r\n     */",
       "meta": {
         "range": [
-          121354,
-          121493
+          122662,
+          122801
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3669,
+        "lineno": 3703,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035196",
+          "id": "astnode100035509",
           "name": "arpg.prototype.dir",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9937,15 +10000,15 @@
       "comment": "/**\r\n     * 小键盘8方向转弧度\r\n     * @param {number} dir 方向\r\n     * @returns {number} 弧度\r\n     */",
       "meta": {
         "range": [
-          121595,
-          121686
+          122903,
+          122994
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3679,
+        "lineno": 3713,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035224",
+          "id": "astnode100035537",
           "name": "arpg.prototype.dir2Radian",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -9986,15 +10049,15 @@
       "comment": "/**\r\n     * \r\n     *   -1/2             \r\n     *     |                    \r\n     * 1 —— —— 0    \r\n     *     |                    \r\n     *    1/2              \r\n     * 弧度转方向，弧度是标准弧度(Math.atan2)\r\n     * @param {number} radian 标准弧度\r\n     * @param {number} dirs=4 方向类型，支持2(水平),4,8三种\r\n     * @param {boolean} setdir=false 是否自动设置为角色方向\r\n     * @param {Game_Character|contexter|Game_Battler} a=this._battler 角色\r\n     * @returns {any}\r\n     */",
       "meta": {
         "range": [
-          122135,
-          122985
+          123443,
+          124293
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3697,
+        "lineno": 3731,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035242",
+          "id": "astnode100035555",
           "name": "arpg.prototype.radian2dir",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -10081,15 +10144,15 @@
       "comment": "/**\r\n     * 角度转弧度\r\n     * @param {number} a 角度\r\n     * @returns {number} 弧度\r\n     */",
       "meta": {
         "range": [
-          123081,
-          123169
+          124389,
+          124477
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3727,
+        "lineno": 3761,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035387",
+          "id": "astnode100035700",
           "name": "arpg.prototype.angle2Radian",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -10130,15 +10193,15 @@
       "comment": "/**\r\n     * 增加状态\r\n     * @param {number} id\r\n     * @param {Game_Battler|Game_Character} target=this._battler 角色\r\n     * @returns {State|undefined} 增加的状态\r\n     */",
       "meta": {
         "range": [
-          123343,
-          123564
+          124651,
+          124872
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3736,
+        "lineno": 3770,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035405",
+          "id": "astnode100035718",
           "name": "arpg.prototype.addState",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -10195,15 +10258,15 @@
       "comment": "/**\r\n     * 移除状态\r\n     * @param {number} id 状态id\r\n     * @param {Game_Battler|Game_Character} target=this._battler 角色\r\n     */",
       "meta": {
         "range": [
-          123702,
-          124026
+          125010,
+          125334
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3747,
+        "lineno": 3781,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035440",
+          "id": "astnode100035753",
           "name": "arpg.prototype.removeState",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -10249,15 +10312,15 @@
       "comment": "/**\r\n     * 准备一个自定义着色器\r\n     * @param {string} fid 文件名作为唯一id\r\n     * @param {object} uniforms={} <strong>必须由程序端声明和说明</strong>着色器定义的开发设置，如颜色，混合强度等\r\n     * @returns {PIXI.Filter} 着色器\r\n     */",
       "meta": {
         "range": [
-          124512,
-          124649
+          125820,
+          125957
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3770,
+        "lineno": 3804,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035544",
+          "id": "astnode100035857",
           "name": "arpg.prototype.preparePIXIfilter",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -10312,15 +10375,15 @@
       "comment": "/**\r\n     * 添加着色器给目标\r\n     * @param {PIXI.Filter} f 着色器\r\n     * @param {PIXI.Container} target 目标如龙骨\r\n     */",
       "meta": {
         "range": [
-          124770,
-          125147
+          126078,
+          126455
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3779,
+        "lineno": 3813,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035566",
+          "id": "astnode100035879",
           "name": "arpg.prototype.addPIXIfilter",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -10365,15 +10428,15 @@
       "comment": "/**\r\n     * 移除着色器\r\n     * @param {PIXI.Filter} f 着色器\r\n     */",
       "meta": {
         "range": [
-          125220,
-          125311
+          126528,
+          126619
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3794,
+        "lineno": 3828,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035633",
+          "id": "astnode100035946",
           "name": "arpg.prototype.removePIXIfilter",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -10404,15 +10467,15 @@
       "comment": "/**\r\n     * 移动碰撞器, 可能不同于pos, 会考虑碰撞\r\n     * @param {object} collider 碰撞器\r\n     * @param {number} x 相对距离\r\n     * @param {number} y 相对距离\r\n     */",
       "meta": {
         "range": [
-          125465,
-          125576
+          126773,
+          126884
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3803,
+        "lineno": 3837,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035653",
+          "id": "astnode100035966",
           "name": "arpg.prototype.translate",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
@@ -10463,15 +10526,15 @@
       "comment": "/**\r\n     * 碰撞拓展1\r\n     * @memberof ScriptableQueryObject\r\n     * @class\r\n     */",
       "meta": {
         "range": [
-          125720,
-          125738
+          127028,
+          127046
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3814,
+        "lineno": 3848,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035687",
+          "id": "astnode100036000",
           "name": "sat",
           "type": "FunctionDeclaration",
           "paramnames": []
@@ -10489,15 +10552,15 @@
       "comment": "/**\r\n     * 碰撞器跟随显示对象\r\n     * @param {object} collider 碰撞器\r\n     * @param {PIXI.Container} display 显示对象如龙骨插槽\r\n     * @param {number} rotate=0 旋转偏移, 如不需要旋转同步将此值设置为非数值\r\n     * @param {number} ox=0 水平偏移, 单位像素\r\n     * @param {number} oy=0 垂直偏移, 单位像素\r\n     */",
       "meta": {
         "range": [
-          127571,
-          128118
+          128879,
+          129426
         ],
         "filename": "ScriptableQueryObject.js",
-        "lineno": 3864,
+        "lineno": 3898,
         "columnno": 4,
         "path": "H:\\BY_SVN\\☆工程文件\\MZ工程\\陈星言\\BY_魔兽领主项目\\Project2\\js\\plugins",
         "code": {
-          "id": "astnode100035916",
+          "id": "astnode100036229",
           "name": "sat.prototype.colliderAuto",
           "type": "FunctionExpression",
           "funcscope": "<anonymous>",
